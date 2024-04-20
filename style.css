@@ -1,0 +1,48 @@
+.bg-green{
+    background-color: rgba(122, 255, 122, 0.121);
+    transition: 0.3s;
+}
+.bg-red{
+    background-color: rgba(255, 80, 80, 0.122);
+    transition: 0.3s;
+}
+.bg-ferro{
+    background-color: rgb(32,167,222);
+    transition: 0.3s;
+}
+
+.bg-green:hover{
+    background-color: rgba(122, 255, 122, 0.856);
+}
+.bg-red:hover{
+    background-color: rgba(255, 80, 80, 0.889);
+}
+
+
+/* -----------------------------mobile---------------------------- */
+.bg-green-mobile{
+    background-color: rgba(122, 255, 122, 0.712);
+}
+.bg-red-mobile{
+    background-color: rgba(255, 80, 80, 0.725);
+}
+.bg-ferro-mobile{
+    background-color: rgba(32, 168, 222, 0.649);
+}
+.btn-primary{
+    background-color: rgba(32, 168, 222, 0.945);
+    border-color: rgba(32, 168, 222, 0.945);
+}
+
+.roboto-mono {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+
+}
+.textcolor{
+    color: white;
+    font-size: 1.4ch;
+}
+.textcolorb{
+    color: black;
+}
