@@ -22,12 +22,15 @@
 /* -----------------------------mobile---------------------------- */
 .bg-green-mobile{
     background-color: rgba(122, 255, 122, 0.712);
+    border-radius: 3%;
 }
 .bg-red-mobile{
     background-color: rgba(255, 80, 80, 0.725);
+    border-radius: 3%;
 }
 .bg-ferro-mobile{
     background-color: rgba(32, 168, 222, 0.649);
+    border-radius: 3%;
 }
 .btn-primary{
     background-color: rgba(32, 168, 222, 0.945);
@@ -36,13 +39,15 @@
 
 .roboto-mono {
     font-family: "Roboto Mono", monospace;
-    font-optical-sizing: auto;
-
 }
+
 .textcolor{
     color: white;
     font-size: 2ch;
 }
 .textcolorb{
     color: black;
+}
+.bluring{
+    filter: blur(5px);
 }
