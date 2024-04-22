@@ -75,14 +75,10 @@ document.addEventListener("DOMContentLoaded", function() {
         btnInicio.style.display = "none";
 
         // Aplicar transición a la imagen de inicio
-        inicioImg.style.transition = "transform 0.5s ease";
+        inicioImg.style.transition = "transform 1.3s ease";
         inicioImg.style.transform = "translateX(-100%) scale(0.8)";
         inicioNav.style.display = "block"; // Ocultar la imagen de inicio
-
-        // Mostrar el contenido principal después de la transición
-        setTimeout(function() {
-            inicioImg.style.display = "none"; // Ocultar la imagen de inicio
-            contenidoPrincipal.style.display = "block"; // Mostrar el contenido principal
-        }, 3000); // Este tiempo debe ser igual al tiempo de la transición
+        inicioImg.style.display = "none"; // Ocultar la imagen de inicio
+        contenidoPrincipal.style.display = "block"; // Mostrar el contenido principal
     });
 });
