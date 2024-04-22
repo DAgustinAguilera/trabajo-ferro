@@ -29,18 +29,21 @@ body, html {
 .inicio-container {
     height: 100%;
     width: 100%;
-    background-image: url("https://i.ibb.co/3MVxbtd/portada2.jpg");
+    background-image: url("https://i.ibb.co/8X0x9pM/portada3.jpg");
     background-size:contain;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     z-index: 1;
 }
+.titulofuturo{
+    margin-top: 18%;
+}
 
 
 #btn-inicio {
     z-index: 1;
-    font-size: 6ch;
+    font-size: 4.5ch;
     padding: 10px 20px;
     background-color: rgba(32, 168, 222, 0.900);
     box-shadow: 11px 11px 29px -11px rgba(0,0,0,0.75);
@@ -103,7 +106,7 @@ body, html {
     filter: blur(1px);
 }
 .texto-titulo{
-    font-size: 4ch;
+    font-size: 3.5ch;
     color: white
 }
 .texto-titulo2{
