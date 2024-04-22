@@ -10,12 +10,9 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet">
     <!-- Font Awesome -->
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
@@ -61,6 +58,16 @@
         </div>
       </div>
     </nav>
+
+
+    <div class="inicio-container d-flex flex-column position-relative" alt="Imagen de inicio" id="inicio-img">
+      <div class="mt-5 p-2 bg-ferro-mobile roboto-mono">
+        <h3 class="texto-titulo">Al futuro se viaja</h3><h1 class="texto-titulo2">en TREN</h1>
+      </div>
+      <button class="roboto-mono position-absolute top-50 start-50 translate-middle" id="btn-inicio">SUBITE</button>
+    </div>
+
+
     <main
       class="position-absolute top-50 start-50 translate-middle m-4 d-none d-xxl-block d-xxxl-none"
     >
@@ -163,8 +170,10 @@
 
     <!-- -------------------------------------version mobile------------------------------------------------- -->
     <main
-      class="position-absolute top-50 start-50 translate-middle d-sm-block d-md-none h-100 w-100"
+      class="position-absolute top-50 start-50 translate-middle d-sm-block d-md-none h-100 w-100 contenido-principal"
+      id="contenido-principal"
     >
+    
       <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -323,46 +332,64 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      <footer class="text-center bg-body-tertiary">
+      <footer id="footer" class="bg-body-tertiary text-center">
         <!-- Grid container -->
-        <div class="container pt-4">
+        <div class="container p-4 pb-0">
           <!-- Section: Social media -->
           <section class="mb-4">
             <!-- Facebook -->
             <a
-              data-mdb-ripple-init
-              class="btn btn-link btn-floating btn-lg text-body m-1"
+            data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #3b5998;"
               href="#!"
               role="button"
-              data-mdb-ripple-color="dark"
               ><i class="fab fa-facebook-f"></i
             ></a>
-
+      
             <!-- Twitter -->
             <a
               data-mdb-ripple-init
-              class="btn btn-link btn-floating btn-lg text-body m-1"
+              class="btn text-white btn-floating m-1"
+              style="background-color: #000000;"
               href="#!"
               role="button"
-              data-mdb-ripple-color="dark"
-              ><i class="fab fa-twitter"></i
+              ><i class="bi bi-twitter-x"></i></a>
+      
+            <!-- Google -->
+            <a
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #dd4b39;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-google"></i
             ></a>
-
+      
             <!-- Instagram -->
             <a
               data-mdb-ripple-init
-              class="btn btn-link btn-floating btn-lg text-body m-1"
+              class="btn text-white btn-floating m-1"
+              style="background-color: #ac2bac;"
               href="#!"
               role="button"
-              data-mdb-ripple-color="dark"
               ><i class="fab fa-instagram"></i
             ></a>
+  
           </section>
           <!-- Section: Social media -->
         </div>
         <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2024 Copyright:
+          <a class="text-body" href="https://mdbootstrap.com/">alfuturoseviajaentren.com.ar</a>
+        </div>
+        <!-- Copyright -->
       </footer>
     </main>
+
     <!-- -------------------------------------version mobile------------------------------------------------- -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="script.js"></script>
