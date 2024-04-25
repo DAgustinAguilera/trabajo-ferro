@@ -3,6 +3,7 @@ const botonalert1 = document.getElementById("boton_alert1");
 const botonalert2 = document.getElementById("boton_alert2");
 const botonalert3 = document.getElementById("boton_alert3");
 
+
 botonalert.onclick = () =>{
     Swal.fire({
         html: `                    <div class="p-2 bg-green-mobile textcolor mt-2 roboto-mono" >
@@ -64,19 +65,22 @@ botonalert3.onclick = () =>{
     );
 }
 
+
 document.addEventListener("DOMContentLoaded", function() {
     const btnInicio = document.getElementById("btn-inicio");
     const inicioImg = document.getElementById("inicio-img");
     const inicioNav = document.getElementById("footer")
     const contenidoPrincipal = document.getElementById("contenido-principal");
 
+
     btnInicio.addEventListener("click", function() {
         // Ocultar el botón de inicio
         btnInicio.style.display = "none";
-
+        miAudio.volume = 0.2;
+        miAudio.play();
         // Aplicar transición a la imagen de inicio
-        inicioImg.style.transition = "transform 1.3s ease";
-        inicioImg.style.transform = "translateX(-100%) scale(0.8)";
+        inicioImg.style.transition = "transform 0.5s ease";
+        inicioImg.style.transform = "translateX(-100%)";
         inicioNav.style.display = "block"; // Ocultar la imagen de inicio
         inicioImg.style.display = "none"; // Ocultar la imagen de inicio
         contenidoPrincipal.style.display = "block"; // Mostrar el contenido principal

@@ -38,6 +38,10 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="style.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
   </head>
   <body>
     <!-- -------------------------------------version web------------------------------------------------- -->
@@ -162,11 +166,13 @@
     </main>
 
     <!-- -------------------------------------version web------------------------------------------------- -->
-    <div class="inicio-container d-flex flex-column position-relative" alt="Imagen de inicio" id="inicio-img">
-      <div class=" p-2 titulofuturo roboto-mono">
-        <!-- <h3 class="texto-titulo">Al futuro se viaja</h3><h1 class="texto-titulo2">en TREN</h1> -->
+    <audio id="miAudio">
+      <source src="/audios/bocina-tren.mp3" type="audio/mp3">
+    </audio>
+    <div class="inicio-container d-flex flex-column position-relative "  alt="Imagen de inicio" id="inicio-img">
+      <div class="d-flex justify-content-center h-100" >
+        <button  class=" align-self-center roboto-mono position-absolute animate__animated animate__lightSpeedInLeft"  id="btn-inicio">SUBITE</button>
       </div>
-      <button class="roboto-mono position-absolute top-50 start-50 translate-middle" id="btn-inicio">SUBITE</button>
     </div>
     <!-- -------------------------------------version mobile------------------------------------------------- -->
     <main
@@ -174,7 +180,7 @@
       id="contenido-principal"
     >
     
-      <div id="carouselExample" class="carousel slide">
+      <div id="carouselExample" class="carousel slide ">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img
@@ -314,7 +320,7 @@
           </div>
         </div>
         <button
-          class="carousel-control-prev"
+          class="carousel-control-prev animate__animated animate__pulse animate__infinite"
           type="button"
           data-bs-target="#carouselExample"
           data-bs-slide="prev"
@@ -323,7 +329,7 @@
           <span class="visually-hidden">Previous</span>
         </button>
         <button
-          class="carousel-control-next"
+          class="carousel-control-next animate__animated animate__pulse animate__infinite"
           type="button"
           data-bs-target="#carouselExample"
           data-bs-slide="next"

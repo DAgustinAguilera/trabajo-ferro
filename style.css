@@ -99,20 +99,11 @@ body, html {
     font-size: 2ch;
 
 }
-.textcolorb{
-    color: black;
-}
-.bluring{
-    filter: blur(1px);
-}
-.texto-titulo{
-    font-size: 3.5ch;
-    color: white
-}
-.texto-titulo2{
-    font-size: 5ch;
-    color: white;
-}
+
 #footer{
     display: none;
 }
+/* .carousel-control-next-icon,  .carousel-control-prev-icon{
+    color: black;
+
+} */
