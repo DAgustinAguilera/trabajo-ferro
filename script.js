@@ -65,19 +65,38 @@ botonalert3.onclick = () =>{
     );
 }
 
+document.addEventListener('DOMContentLoaded', function () {
+    var btnInicio = document.getElementById('btn-inicio');
+    var titulo = document.getElementById('titulo');
+    
+    // Escuchamos el evento 'animationend' para detectar cuándo finaliza la animación
+    btnInicio.addEventListener('animationend', function (event) {
+      // Verificamos si la animación que finalizó es la que nos interesa
+      if (event.animationName === 'lightSpeedInLeft') {
+        // Cambiamos la clase del botón
+        btnInicio.classList.remove('animate__lightSpeedInLeft');
+        btnInicio.classList.add('animate__bounce', 'animate__infinite','animate__slow');
+        titulo.classList.remove('animate__fadeInRight');
+      }
+    });
+  });
+  
 
 document.addEventListener("DOMContentLoaded", function() {
     const btnInicio = document.getElementById("btn-inicio");
     const inicioImg = document.getElementById("inicio-img");
     const inicioNav = document.getElementById("footer")
     const contenidoPrincipal = document.getElementById("contenido-principal");
+    const botonsliden = document.getElementById("boton-sliden");
+    const botonslidep = document.getElementById("boton-slidep");
+
 
 
     btnInicio.addEventListener("click", function() {
         // Ocultar el botón de inicio
         btnInicio.style.display = "none";
-        miAudio.volume = 0.2;
-        miAudio.play();
+        bocina.volume = 0.2;
+        bocina.play();
         // Aplicar transición a la imagen de inicio
         inicioImg.style.transition = "transform 0.5s ease";
         inicioImg.style.transform = "translateX(-100%)";
@@ -85,4 +104,30 @@ document.addEventListener("DOMContentLoaded", function() {
         inicioImg.style.display = "none"; // Ocultar la imagen de inicio
         contenidoPrincipal.style.display = "block"; // Mostrar el contenido principal
     });
+    botonslidep.addEventListener("click", function() {
+        transicion.volume = 0.01;
+        transicion.play();
+    });
+    botonsliden.addEventListener("click", function() {
+      transicion.volume = 0.01;
+      transicion.play();
+  });
+
+  var myCarousel = document.getElementById('carouselExample');
+
+  var touchStartX = 0;
+
+  myCarousel.addEventListener('touchstart', function (event) {
+    touchStartX = event.touches[0].clientX;
+  });
+
+  myCarousel.addEventListener('touchend', function (event) {
+    var touchEndX = event.changedTouches[0].clientX;
+    var swipeDistance = touchEndX - touchStartX;
+
+    if (swipeDistance > 150 || swipeDistance < -150  ) {
+      transicion.volume = 0.01;
+      transicion.play();
+    }
+  });
 });

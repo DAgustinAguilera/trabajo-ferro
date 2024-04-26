@@ -166,10 +166,14 @@
     </main>
 
     <!-- -------------------------------------version web------------------------------------------------- -->
-    <audio id="miAudio">
+    <audio id="bocina">
       <source src="/audios/bocina-tren.mp3" type="audio/mp3">
     </audio>
+    <audio id="transicion">
+      <source src="/audios/Transicion.mp3" type="audio/mp3">
+    </audio>
     <div class="inicio-container d-flex flex-column position-relative "  alt="Imagen de inicio" id="inicio-img">
+      <img id="titulo" class="mt-10 w-75 position-absolute animate__animated animate__fadeInRight" src="https://i.ibb.co/MDwkq4b/LOGO.png" alt="">
       <div class="d-flex justify-content-center h-100" >
         <button  class=" align-self-center roboto-mono position-absolute animate__animated animate__lightSpeedInLeft"  id="btn-inicio">SUBITE</button>
       </div>
@@ -320,19 +324,21 @@
           </div>
         </div>
         <button
-          class="carousel-control-prev animate__animated animate__pulse animate__infinite"
+          class="carousel-control-prev animate__animated animate__headShake animate__infinite"
           type="button"
           data-bs-target="#carouselExample"
           data-bs-slide="prev"
+          id="boton-slidep"
         >
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
         <button
-          class="carousel-control-next animate__animated animate__pulse animate__infinite"
+          class="carousel-control-next animate__animated animate__headShake animate__infinite "
           type="button"
           data-bs-target="#carouselExample"
           data-bs-slide="next"
+          id="boton-sliden"
         >
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
