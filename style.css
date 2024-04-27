@@ -25,6 +25,9 @@ body, html {
     padding: 0;
     height: 100%;
 }
+.btn-lg{
+    font-size: 3ch;
+}
 
 .inicio-container {
     height: 100%;
