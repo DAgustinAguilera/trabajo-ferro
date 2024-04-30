@@ -89,6 +89,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const contenidoPrincipal = document.getElementById("contenido-principal");
     const botonsliden = document.getElementById("boton-sliden");
     const botonslidep = document.getElementById("boton-slidep");
+    const navBar = document.getElementById("navbar");
 
 
 
@@ -101,6 +102,7 @@ document.addEventListener("DOMContentLoaded", function() {
         inicioImg.style.transition = "transform 0.5s ease";
         inicioImg.style.transform = "translateX(-100%)";
         inicioNav.style.display = "block"; // Ocultar la imagen de inicio
+        navBar.style.display = "block"; // Ocultar la imagen de inicio
         inicioImg.style.display = "none"; // Ocultar la imagen de inicio
         contenidoPrincipal.style.display = "block"; // Mostrar el contenido principal
     });

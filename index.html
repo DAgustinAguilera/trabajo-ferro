@@ -10,9 +10,12 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap"
+      rel="stylesheet"
+    />
     <!-- Font Awesome -->
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
@@ -39,34 +42,51 @@
     ></script>
     <link rel="stylesheet" href="style.css" />
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-  </head>
-  <body>
-    <!-- -------------------------------------version web------------------------------------------------- -->
-
-    <nav
-      class="navbar navbar-expand-lg bg-ferro d-none d-none d-xxl-block d-xxxl-none"
-    >
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <nav class="navbar fixed-top roboto-mono navbarcolor"  id="navbar">
       <div class="container-fluid">
-        <div
-          class="collapse navbar-collapse position-relative"
-          id="navbarNavAltMarkup"
-        >
-          <img src="https://i.ibb.co/LxShfft/felcha-derecha.png" alt="" />
-          <div class="d-grid gap-2 col-3 mx-auto">
-            <button class="btn btn-primary" type="button">Button</button>
+        <a class="navbar-brand" href="#">Al futuro se viaja en tren</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end navbarcolor" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header navbarcolor">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Herramientas utiles</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
-          <img src="https://i.ibb.co/Qk9nG8Y/felcha-izquierda.png" alt="" />
+          <div class="offcanvas-body navbarcolor">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Encuesta</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://chng.it/Lj4djB2YS8">Vota nuestra peticion</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Horarios
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="https://www.argentina.gob.ar/transporte/trenes-argentinos/horarios-tarifas-y-recorridos/areametropolitana/lineamitre">Mitre</a></li>
+                  <li><a class="dropdown-item" href="https://www.argentina.gob.ar/transporte/trenes-argentinos/horarios-tarifas-y-recorridos/areametropolitana/linearoca">Roca</a></li>
+                  <li><a class="dropdown-item" href="https://www.argentina.gob.ar/transporte/trenes-argentinos/horarios-tarifas-y-recorridos/areametropolitana/lineasarmiento">Sarmiento</a></li>
+                  <li><a class="dropdown-item" href="https://www.argentina.gob.ar/sites/default/files/horarios_linea_san_martin_julio_web_0.pdf">San martin</a></li>
+                  <li><a class="dropdown-item" href="https://metrovias.com.ar/wp-content/uploads/2024/03/Horarios-Urquiza-Invierno-2024-WEB.pdf">Urquiza</a></li>
+                  <li><a class="dropdown-item" href="https://www.ferrovias.com.ar/imgs/HORARIO_18.pdf">Belgrano norte</a></li>
+                  <li><a class="dropdown-item" href="https://www.argentina.gob.ar/transporte/trenes-argentinos/horarios-tarifas-y-recorridos/areametropolitana/lineabelgranosur">Belgrano sur </a></li>
+
+                </ul>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </nav>
-
-
-
-
-
+  </head>
+  <body>
+    <!-- -------------------------------------version web------------------------------------------------- -->
     <main
       class="position-absolute top-50 start-50 translate-middle m-4 d-none d-xxl-block d-xxxl-none"
     >
@@ -167,15 +187,29 @@
 
     <!-- -------------------------------------version web------------------------------------------------- -->
     <audio id="bocina">
-      <source src="/audios/bocina-tren.mp3" type="audio/mp3">
+      <source src="/audios/bocina-tren.mp3" type="audio/mp3" />
     </audio>
     <audio id="transicion">
-      <source src="/audios/Transicion.mp3" type="audio/mp3">
+      <source src="/audios/Transicion.mp3" type="audio/mp3" />
     </audio>
-    <div class="inicio-container d-flex flex-column position-relative "  alt="Imagen de inicio" id="inicio-img">
-      <img id="titulo" class="mt-10 w-75 position-absolute animate__animated animate__fadeInRight" src="https://i.ibb.co/MDwkq4b/LOGO.png" alt="">
-      <div class="d-flex justify-content-center h-100" >
-        <button  class=" align-self-center roboto-mono position-absolute animate__animated animate__lightSpeedInLeft"  id="btn-inicio">SUBITE</button>
+    <div
+      class="inicio-container d-flex flex-column position-relative"
+      alt="Imagen de inicio"
+      id="inicio-img"
+    >
+      <img
+        id="titulo"
+        class="mt-10 w-75 position-absolute animate__animated animate__fadeInRight"
+        src="https://i.ibb.co/MDwkq4b/LOGO.png"
+        alt=""
+      />
+      <div class="d-flex justify-content-center h-100">
+        <button
+          class="align-self-center roboto-mono position-absolute animate__animated animate__lightSpeedInLeft"
+          id="btn-inicio"
+        >
+          SUBITE
+        </button>
       </div>
     </div>
     <!-- -------------------------------------version mobile------------------------------------------------- -->
@@ -183,8 +217,7 @@
       class="position-absolute top-50 start-50 translate-middle d-sm-block d-md-none h-100 w-100 contenido-principal"
       id="contenido-principal"
     >
-    
-      <div id="carouselExample" class="carousel slide ">
+      <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img
@@ -213,9 +246,15 @@
                 </h3>
               </div>
               <div>
-                <button type="button" id="" class="btn btn-primary btn-lg animate__animated animate__pulse animate__infinite">
-                  ¡Votar!
-                </button>
+                <a href="https://chng.it/Lj4djB2YS8">
+                  <button
+                    type="button"
+                    id=""
+                    class="btn btn-primary btn-lg animate__animated animate__pulse animate__infinite"
+                  >
+                    ¡Votar!
+                  </button></a
+                >
               </div>
             </div>
           </div>
@@ -246,9 +285,15 @@
                 </h3>
               </div>
               <div>
-                <button type="button" id="" class="btn btn-primary btn-lg animate__animated animate__pulse animate__infinite">
-                  ¡Votar!
-                </button>
+                <a href="https://chng.it/Lj4djB2YS8">
+                  <button
+                    type="button"
+                    id=""
+                    class="btn btn-primary btn-lg animate__animated animate__pulse animate__infinite"
+                  >
+                    ¡Votar!
+                  </button></a
+                >
               </div>
             </div>
           </div>
@@ -279,9 +324,15 @@
                 </h3>
               </div>
               <div>
-                <button type="button" id="" class="btn btn-primary btn-lg animate__animated animate__pulse animate__infinite">
-                  ¡Votar!
-                </button>
+                <a href="https://chng.it/Lj4djB2YS8">
+                  <button
+                    type="button"
+                    id=""
+                    class="btn btn-primary btn-lg animate__animated animate__pulse animate__infinite"
+                  >
+                    ¡Votar!
+                  </button></a
+                >
               </div>
             </div>
           </div>
@@ -312,9 +363,15 @@
                 </h3>
               </div>
               <div>
-                <button type="button" id="" class="btn btn-primary btn-lg animate__animated animate__pulse animate__infinite">
-                  ¡Votar!
-                </button>
+                <a href="https://chng.it/Lj4djB2YS8">
+                  <button
+                    type="button"
+                    id=""
+                    class="btn btn-primary btn-lg animate__animated animate__pulse animate__infinite"
+                  >
+                    ¡Votar!
+                  </button></a
+                >
               </div>
             </div>
           </div>
@@ -327,62 +384,52 @@
             <div
               class="carousel-caption d-flex flex-column justify-content-center top-0 start-0 text-white w-100"
             >
-              <div class="p-2 bg-ferro-mobile textcolor m-2 roboto-mono ">
-                <h3>Te invitamos a debatir y comentar en nuestras redes sociales</h3>
+              <div class="p-2 bg-ferro-mobile textcolor m-2 roboto-mono">
+                <h3>
+                  Te invitamos a debatir y comentar en nuestras redes sociales
+                </h3>
                 <div class="animate__animated animate__pulse animate__infinite">
-                  
-                <a
-                data-mdb-ripple-init
-                  class="btn text-white btn-floating m-1"
-                  style="background-color: #3b5998;"
-                  href="#!"
-                  role="button"
-                  ><i class="fab fa-facebook-f"></i
-                ></a>
-          
-                <!-- Twitter -->
-                <a
-                  data-mdb-ripple-init
-                  class="btn text-white btn-floating m-1"
-                  style="background-color: #000000;"
-                  href="#!"
-                  role="button"
-                  ><i class="bi bi-twitter-x"></i></a>
-          
-                <!-- Google -->
-                <a
-                  data-mdb-ripple-init
-                  class="btn text-white btn-floating m-1"
-                  style="background-color: #dd4b39;"
-                  href="#!"
-                  role="button"
-                  ><i class="fab fa-google"></i
-                ></a>
-          
-                <!-- Instagram -->
-                <a
-                  data-mdb-ripple-init
-                  class="btn text-white btn-floating m-1"
-                  style="background-color: #ac2bac;"
-                  href="#!"
-                  role="button"
-                  ><i class="fab fa-instagram"></i
-                ></a>
+                  <a
+                    data-mdb-ripple-init
+                    class="btn text-white btn-floating m-1"
+                    style="background-color: #3b5998"
+                    href="#!"
+                    role="button"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+
+                  <!-- Twitter -->
+                  <a
+                    data-mdb-ripple-init
+                    class="btn text-white btn-floating m-1"
+                    style="background-color: #000000"
+                    href="#!"
+                    role="button"
+                    ><i class="bi bi-twitter-x"></i
+                  ></a>
+
+                  <!-- Google -->
+                  <a
+                    data-mdb-ripple-init
+                    class="btn text-white btn-floating m-1"
+                    style="background-color: #dd4b39"
+                    href="#!"
+                    role="button"
+                    ><i class="fab fa-google"></i
+                  ></a>
+
+                  <!-- Instagram -->
+                  <a
+                    data-mdb-ripple-init
+                    class="btn text-white btn-floating m-1"
+                    style="background-color: #ac2bac"
+                    href="#!"
+                    role="button"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
                 </div>
-
-
-
-
-
-
-
-
-
-
               </div>
-              <div>
-
-              </div>
+              <div></div>
             </div>
           </div>
         </div>
@@ -397,7 +444,7 @@
           <span class="visually-hidden">Previous</span>
         </button>
         <button
-          class="carousel-control-next animate__animated animate__headShake animate__infinite "
+          class="carousel-control-next animate__animated animate__headShake animate__infinite"
           type="button"
           data-bs-target="#carouselExample"
           data-bs-slide="next"
@@ -414,52 +461,57 @@
           <section class="mb-4">
             <!-- Facebook -->
             <a
-            data-mdb-ripple-init
+              data-mdb-ripple-init
               class="btn text-white btn-floating m-1"
-              style="background-color: #3b5998;"
+              style="background-color: #3b5998"
               href="#!"
               role="button"
               ><i class="fab fa-facebook-f"></i
             ></a>
-      
+
             <!-- Twitter -->
             <a
               data-mdb-ripple-init
               class="btn text-white btn-floating m-1"
-              style="background-color: #000000;"
+              style="background-color: #000000"
               href="#!"
               role="button"
-              ><i class="bi bi-twitter-x"></i></a>
-      
+              ><i class="bi bi-twitter-x"></i
+            ></a>
+
             <!-- Google -->
             <a
               data-mdb-ripple-init
               class="btn text-white btn-floating m-1"
-              style="background-color: #dd4b39;"
+              style="background-color: #dd4b39"
               href="#!"
               role="button"
               ><i class="fab fa-google"></i
             ></a>
-      
+
             <!-- Instagram -->
             <a
               data-mdb-ripple-init
               class="btn text-white btn-floating m-1"
-              style="background-color: #ac2bac;"
+              style="background-color: #ac2bac"
               href="#!"
               role="button"
               ><i class="fab fa-instagram"></i
             ></a>
-  
           </section>
           <!-- Section: Social media -->
         </div>
         <!-- Grid container -->
-      
+
         <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+        <div
+          class="text-center p-3"
+          style="background-color: rgba(0, 0, 0, 0.05)"
+        >
           © 2024 Copyright:
-          <a class="text-body" href="https://mdbootstrap.com/">alfuturoseviajaentren.com.ar</a>
+          <a class="text-body" href="https://mdbootstrap.com/"
+            >alfuturoseviajaentren.com.ar</a
+          >
         </div>
         <!-- Copyright -->
       </footer>

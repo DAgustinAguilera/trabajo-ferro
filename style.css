@@ -70,7 +70,25 @@ body, html {
     display: none;
 
 }
+.navbar{
+    display: none;
+    color: white;
+    background-color: rgba(32, 168, 222);
 
+
+}
+.navbarcolor, .navbar-dark, .bg-dark{
+    background-color: rgba(32, 168, 222);
+    box-shadow: 11px 11px 29px -11px rgba(0,0,0,0.75);
+    color: white;
+
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show, .navbar-brand,.navbar-toggler-icon,.nav-link {
+    color: rgb(255, 255, 255);
+}
+.nav-link:hover,.navbar-brand:hover{
+    color: rgb(169, 231, 255);;
+}
 .bg-green-mobile{
     background-color: rgba(51, 105, 51, 0.9);
     border-radius: 3%;
