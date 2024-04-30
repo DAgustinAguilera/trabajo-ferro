@@ -2,9 +2,17 @@ const botonalert = document.getElementById("boton_alert");
 const botonalert1 = document.getElementById("boton_alert1");
 const botonalert2 = document.getElementById("boton_alert2");
 const botonalert3 = document.getElementById("boton_alert3");
+const botonTrenesRegionales = document.getElementById("boton-t-r")
 
+botonTrenesRegionales.onclick = ()=>{
+  Swal.fire({
+    html: `<div>
+    <img src="/imagenes/Plano mitre.jpeg" alt="">
+    </div>`
+  });
+}  
 
-botonalert.onclick = () =>{
+botonalert3.onclick = () =>{
     Swal.fire({
         html: `                    <div class="p-2 bg-green-mobile textcolor mt-2 roboto-mono" >
         <p>El ferrocarril ofrece una alternativa sostenible al transporte de carga, reduciendo significativamente las emisiones de gases de efecto invernadero en comparación con los camiones. Al utilizar energía eléctrica y sistemas de propulsión eficientes, el ferrocarril disminuye la contaminación atmosférica y ayuda a mitigar el cambio climático. Además, al transportar grandes volúmenes de mercancías, contribuye a descongestionar las carreteras y a preservar los ecosistemas naturales.</p>
@@ -19,7 +27,7 @@ botonalert.onclick = () =>{
     }
     );
 }
-botonalert1.onclick = () =>{
+botonalert2.onclick = () =>{
     Swal.fire({
         html: `                    <div class="p-2 bg-green-mobile textcolor mt-2 roboto-mono" >
         <p>En un país que ha apostado por el ferrocarril como columna vertebral de su sistema de transporte, los beneficios son evidentes. Con una red ferroviaria eficiente y bien desarrollada, se logra una reducción significativa de la congestión en carreteras, disminución de emisiones de gases de efecto invernadero y una mayor conectividad regional y nacional. Además, el transporte de mercancías y pasajeros se vuelve más seguro, económico y sostenible, fomentando el desarrollo económico y social..</p>
@@ -34,7 +42,7 @@ botonalert1.onclick = () =>{
     }
     );
 }
-botonalert2.onclick = () =>{
+botonalert1.onclick = () =>{
     Swal.fire({
         html: `                    <div class="p-2 bg-green-mobile textcolor mt-2 roboto-mono" >
         <p>El ferrocarril, al ser un medio de transporte eficiente y económico, ofrece una serie de ventajas económicas significativas. Facilita el movimiento rápido y rentable de grandes volúmenes de carga a largas distancias, lo que reduce los costos logísticos y aumenta la competitividad de las empresas. Además, al fomentar la integración regional y nacional, el ferrocarril impulsa el comercio, la inversión y el crecimiento económico, generando empleo y fortaleciendo la infraestructura y la conectividad.</p>
@@ -49,7 +57,7 @@ botonalert2.onclick = () =>{
     }
     );
 }
-botonalert3.onclick = () =>{
+botonalert.onclick = () =>{
     Swal.fire({
         html: `                    <div class="p-2 bg-green-mobile textcolor mt-2 roboto-mono" >
         <p>El ferrocarril ha sido un catalizador clave en la transformación social de las comunidades a lo largo de la historia. Facilita la movilidad de las personas, promueve la integración social y cultural, y fortalece los lazos entre regiones y ciudades. Además, al proporcionar un medio de transporte accesible y asequible, el ferrocarril mejora la calidad de vida al permitir a las personas acceder a oportunidades educativas, laborales y recreativas en áreas urbanas y rurales.</p>

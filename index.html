@@ -47,37 +47,53 @@
     />
     <nav class="navbar fixed-top roboto-mono navbarcolor"  id="navbar">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Al futuro se viaja en tren</a>
+        <a class="navbar-brand" href="#">Herramientas utiles</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="offcanvas offcanvas-end navbarcolor" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
           <div class="offcanvas-header navbarcolor">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Herramientas utiles</h5>
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
           <div class="offcanvas-body navbarcolor">
+            
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Encuesta</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://chng.it/Lj4djB2YS8">Vota nuestra peticion</a>
-              </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Horarios
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="https://www.argentina.gob.ar/transporte/trenes-argentinos/horarios-tarifas-y-recorridos/areametropolitana/lineamitre">Mitre</a></li>
-                  <li><a class="dropdown-item" href="https://www.argentina.gob.ar/transporte/trenes-argentinos/horarios-tarifas-y-recorridos/areametropolitana/linearoca">Roca</a></li>
+                  <li><a class="dropdown-item" href="https://www.argentina.gob.ar/transporte/trenes-argentinos/horarios-tarifas-y-recorridos/areametropolitana/lineamitre">Líena Mitre</a></li>
+                  <li><a class="dropdown-item" href="https://www.argentina.gob.ar/transporte/trenes-argentinos/horarios-tarifas-y-recorridos/areametropolitana/tren-de-la-costa/av-maipu-delta">Tren de la Costa</a></li>
+                  <li><a class="dropdown-item" href="https://www.argentina.gob.ar/transporte/trenes-argentinos/horarios-tarifas-y-recorridos/servicios-regionales-larga-distancia/regionalchaco">Regional Chaco </a></li>
+                  <li><a class="dropdown-item" href="https://www.argentina.gob.ar/transporte/trenes-argentinos/horarios-tarifas-y-recorridos/servicios-regionales-larga-distancia/regionalsalta">Regional Salta</a></li>
+                  <li><a class="dropdown-item" href="https://www.argentina.gob.ar/transporte/trenes-argentinos/horarios-tarifas-y-recorridos/servicios-regionales-larga-distancia/regionalcordoba">Tren de la Sierras</a></li>
+
+                  <!-- <li><a class="dropdown-item" href="https://www.argentina.gob.ar/transporte/trenes-argentinos/horarios-tarifas-y-recorridos/areametropolitana/linearoca">Roca</a></li>
                   <li><a class="dropdown-item" href="https://www.argentina.gob.ar/transporte/trenes-argentinos/horarios-tarifas-y-recorridos/areametropolitana/lineasarmiento">Sarmiento</a></li>
                   <li><a class="dropdown-item" href="https://www.argentina.gob.ar/sites/default/files/horarios_linea_san_martin_julio_web_0.pdf">San martin</a></li>
                   <li><a class="dropdown-item" href="https://metrovias.com.ar/wp-content/uploads/2024/03/Horarios-Urquiza-Invierno-2024-WEB.pdf">Urquiza</a></li>
                   <li><a class="dropdown-item" href="https://www.ferrovias.com.ar/imgs/HORARIO_18.pdf">Belgrano norte</a></li>
-                  <li><a class="dropdown-item" href="https://www.argentina.gob.ar/transporte/trenes-argentinos/horarios-tarifas-y-recorridos/areametropolitana/lineabelgranosur">Belgrano sur </a></li>
-
+                  <li><a class="dropdown-item" href="https://www.argentina.gob.ar/transporte/trenes-argentinos/horarios-tarifas-y-recorridos/areametropolitana/lineabelgranosur">Belgrano sur </a></li> -->
                 </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">Linea Mitre</a>
+              </li>
+              <li class="nav-item">
+                <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
+                  <img src="/imagenes/Plano mitre.jpeg" alt="">
+                </div>
+              </li>
+              <li class="nav-item" id="boton-t-r">
+                <a class="nav-link" href="#">Trenes regionales</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://chng.it/Lj4djB2YS8">Firma nuestra peticion</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Encuesta</a>
               </li>
             </ul>
           </div>
@@ -229,7 +245,7 @@
               class="carousel-caption d-flex flex-column justify-content-center top-0 start-0 text-white w-100"
             >
               <div class="p-2 bg-ferro-mobile textcolor m-2 roboto-mono">
-                <h3>Los trenes y sus ventajas ambientales</h3>
+                <h3>La importancia de los trenes en la sociedad</h3>
               </div>
               <div class="roboto-mono">
                 <button
@@ -250,11 +266,12 @@
                   <button
                     type="button"
                     id=""
-                    class="btn btn-primary btn-lg animate__animated animate__pulse animate__infinite"
+                    class="btn btn-firma btn-lg animate__animated animate__pulse animate__infinite"
                   >
-                    ¡Votar!
+                    ¡Firma!
                   </button></a
                 >
+                
               </div>
             </div>
           </div>
@@ -268,7 +285,7 @@
               class="carousel-caption d-flex flex-column justify-content-center top-0 start-0 text-white w-100"
             >
               <div class="p-2 bg-ferro-mobile textcolor m-2 roboto-mono">
-                <h3>Los paises con ferrocarril</h3>
+                <h3>Ventajas Económicas del Ferrocarril</h3>
               </div>
               <div class="roboto-mono">
                 <button
@@ -289,9 +306,9 @@
                   <button
                     type="button"
                     id=""
-                    class="btn btn-primary btn-lg animate__animated animate__pulse animate__infinite"
+                    class="btn btn-firma btn-lg animate__animated animate__pulse animate__infinite"
                   >
-                    ¡Votar!
+                  ¡Firma!
                   </button></a
                 >
               </div>
@@ -307,7 +324,7 @@
               class="carousel-caption d-flex flex-column justify-content-center top-0 start-0 text-white w-100"
             >
               <div class="p-2 bg-ferro-mobile textcolor m-2 roboto-mono">
-                <h3>Ventajas Económicas del Ferrocarril</h3>
+                <h3>Los paises con ferrocarril</h3>
               </div>
               <div class="roboto-mono">
                 <button
@@ -328,9 +345,9 @@
                   <button
                     type="button"
                     id=""
-                    class="btn btn-primary btn-lg animate__animated animate__pulse animate__infinite"
+                    class="btn btn-firma btn-lg animate__animated animate__pulse animate__infinite"
                   >
-                    ¡Votar!
+                  ¡Firma!
                   </button></a
                 >
               </div>
@@ -346,7 +363,7 @@
               class="carousel-caption d-flex flex-column justify-content-center top-0 start-0 text-white w-100"
             >
               <div class="p-2 bg-ferro-mobile textcolor m-2 roboto-mono">
-                <h3>La importancia de los trenes en la sociedad</h3>
+                <h3>Los trenes y sus ventajas ambientales</h3>
               </div>
               <div class="roboto-mono">
                 <button
@@ -367,9 +384,9 @@
                   <button
                     type="button"
                     id=""
-                    class="btn btn-primary btn-lg animate__animated animate__pulse animate__infinite"
+                    class="btn btn-firma btn-lg animate__animated animate__pulse animate__infinite"
                   >
-                    ¡Votar!
+                  ¡Firma!
                   </button></a
                 >
               </div>
@@ -457,6 +474,8 @@
       <footer id="footer" class="bg-body-tertiary text-center">
         <!-- Grid container -->
         <div class="container p-4 pb-0">
+          <h1 class="roboto-mono">Al futuro se viaja en tren</h1>
+
           <!-- Section: Social media -->
           <section class="mb-4">
             <!-- Facebook -->

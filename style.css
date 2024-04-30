@@ -54,7 +54,7 @@ body, html {
     font-size: 3.5ch;
     padding: 10px 20px;
     background-color: rgba(32, 168, 222, 0.900);
-    box-shadow: 11px 11px 29px -11px rgba(0,0,0,0.75);
+    box-shadow: 4px 10px 18px 6px rgba(0, 0, 0, 0.692);
     border-radius: 3%;
     color: #fff;
     border: none;
@@ -72,22 +72,26 @@ body, html {
 }
 .navbar{
     display: none;
-    color: white;
+    color: rgb(0, 0, 0);
     background-color: rgba(32, 168, 222);
 
 
 }
+.dropdown-item{
+    background-color: rgba(22, 93, 121, 0.9);
+    color: rgb(223, 223, 223);
+}
 .navbarcolor, .navbar-dark, .bg-dark{
-    background-color: rgba(32, 168, 222);
+    background-color: white;
     box-shadow: 11px 11px 29px -11px rgba(0,0,0,0.75);
-    color: white;
+    color: rgb(11, 11, 11);;
 
 }
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show, .navbar-brand,.navbar-toggler-icon,.nav-link {
-    color: rgb(255, 255, 255);
+    color: rgb(90, 89, 89);;
 }
 .nav-link:hover,.navbar-brand:hover{
-    color: rgb(169, 231, 255);;
+    color: rgb(68, 68, 68)
 }
 .bg-green-mobile{
     background-color: rgba(51, 105, 51, 0.9);
@@ -104,10 +108,20 @@ body, html {
     box-shadow: 11px 11px 29px -11px rgba(0,0,0,0.75);
     border-radius: 3%;
 }
+.btn-firma{
+    background-color: rgba(0, 128, 98, 0.91);
+    border-color: green;
+    box-shadow: 4px 10px 18px 6px rgba(0,0,0,0.77);
+    font-family: "Squada One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    
+}
 .btn-primary{
-    background-color: rgba(32, 168, 222, 0.900);
+    background-color: rgba(26, 121, 159, 0.9);
     border-color: rgba(32, 168, 222, 0.945);
-    box-shadow: 11px 11px 29px -11px rgba(0,0,0,0.75);
+    box-shadow: 4px 10px 18px 6px rgba(0,0,0,0.77);
     font-family: "Squada One", sans-serif;
     font-weight: 400;
     font-style: normal;
