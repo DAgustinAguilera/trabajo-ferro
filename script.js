@@ -21,7 +21,7 @@ botonTrenesRegionales.onclick = ()=>{
         minZoom: -2 
     });
 
-    var imageUrl = 'https://i.ibb.co/stCGsYG/planomitre.png';
+    var imageUrl = 'https://i.ibb.co/x390sgq/Planomitre-Foto.jpg';
     var imageBounds = [[0, 0], [1131, 1131]]; // Dimensiones de la imagen
     L.imageOverlay(imageUrl, imageBounds, {interactive: false}).addTo(map); // Desactivar la interactividad de la imagen
 
@@ -30,22 +30,24 @@ botonTrenesRegionales.onclick = ()=>{
     map.fitBounds(imageBounds);
 
     var marker1 = L.marker([856, 1011]).addTo(map)
-    .bindPopup("<b>Punto 1</b><br>Descripción del punto 1.").openPopup();
+    .bindPopup("<b>Punto 1</b><br>Descripción del punto 1.").closePopup();
 
-    var marker2 = L.marker([1011, 278]).addTo(map)
+    var marker2 = L.marker([1060, 288]).addTo(map)
     .bindPopup("<b>Punto 2</b><br>");
 
    var marker3 = L.marker([700, 500]).addTo(map)
     .bindPopup("<b>Punto 3</b><br>Descripción del punto 3.");
 
     var latlngs = [
-      [1011, 278], // Coordenadas iniciales
-      [968, 278], // Coordenadas finales
+      [1060, 288], // Coordenadas iniciales
+      [1010, 288], // Coordenadas finales
     ];
     var polyline = L.polyline(latlngs, {color: 'red',weight: 10}).addTo(map);
 
     // Añadir un popup a la línea
-    polyline.bindPopup("Tramo clausurado por estado de via").openPopup();
+    polyline.bindPopup("Tramo clausurado por estado de via").closePopup();
+
+    popup.closePopup();
 }  
 
 botonalert3.onclick = () =>{
