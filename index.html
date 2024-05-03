@@ -45,20 +45,35 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-     crossorigin=""/>
-     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
- 
-
-    <nav class="navbar fixed-top roboto-mono navbarcolor"  id="navbar">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  </head>
+  <body>
+    <nav class="navbar fixed-top roboto-mono navbarcolor" id="navbar">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Herramientas utiles</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="offcanvas offcanvas-end navbarcolor" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div
+          class="offcanvas offcanvas-end navbarcolor"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
           <div class="offcanvas-header navbarcolor">
             <a href="https://chng.it/Lj4djB2YS8">
               <button
@@ -70,28 +85,55 @@
               </button>
             </a>
             <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
           </div>
           <div class="offcanvas-body navbarcolor">
-            
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item">
-                <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
-                  <img src="/imagenes/Plano mitre.jpeg" alt="">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Estado del Servicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <div
+                  class="collapse"
+                  id="navbarToggleExternalContent"
+                  data-bs-theme="dark"
+                >
+                  <img src="/imagenes/Plano mitre.jpeg" alt="" />
                 </div>
               </li>
               <li class="nav-item" id="boton-t-r">
-                <a class="nav-link" href="#">Esquema linea mitre</a>
+                <a class="nav-link" href="#">Esquema Linea Mitre</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Esquema servicios regionales
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Esquema Servicios Regionales
                 </a>
                 <ul class="dropdown-menu">
-                  <li id="boton-t-r1"><a class="dropdown-item">Tren de la Costa</a></li>
-                  <li id="boton-t-r2"><a class="dropdown-item">Regional Chaco </a></li>
-                  <li id="boton-t-r3"><a class="dropdown-item">Regional Salta</a></li>
-                  <li id="boton-t-r4"><a class="dropdown-item">Tren de la Sierras</a></li>
+                  <li id="boton-t-r1">
+                    <a class="dropdown-item">Tren de la Costa</a>
+                  </li>
+                  <li id="boton-t-r2">
+                    <a class="dropdown-item">Regional Chaco </a>
+                  </li>
+                  <li id="boton-t-r3">
+                    <a class="dropdown-item">Regional Salta</a>
+                  </li>
+                  <li id="boton-t-r4">
+                    <a class="dropdown-item">Tren de la Sierras</a>
+                  </li>
 
                   <!-- <li><a class="dropdown-item" href="https://www.argentina.gob.ar/transporte/trenes-argentinos/horarios-tarifas-y-recorridos/areametropolitana/linearoca">Roca</a></li>
                   <li><a class="dropdown-item" href="https://www.argentina.gob.ar/transporte/trenes-argentinos/horarios-tarifas-y-recorridos/areametropolitana/lineasarmiento">Sarmiento</a></li>
@@ -102,15 +144,51 @@
                 </ul>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Horarios y Tarifas linea Mitre
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Horarios y Tarifas
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="https://www.argentina.gob.ar/transporte/trenes-argentinos/horarios-tarifas-y-recorridos/areametropolitana/lineamitre">Líena Mitre</a></li>
-                  <li><a class="dropdown-item" href="https://www.argentina.gob.ar/transporte/trenes-argentinos/horarios-tarifas-y-recorridos/areametropolitana/tren-de-la-costa/av-maipu-delta">Tren de la Costa</a></li>
-                  <li><a class="dropdown-item" href="https://www.argentina.gob.ar/transporte/trenes-argentinos/horarios-tarifas-y-recorridos/servicios-regionales-larga-distancia/regionalchaco">Regional Chaco </a></li>
-                  <li><a class="dropdown-item" href="https://www.argentina.gob.ar/transporte/trenes-argentinos/horarios-tarifas-y-recorridos/servicios-regionales-larga-distancia/regionalsalta">Regional Salta</a></li>
-                  <li><a class="dropdown-item" href="https://www.argentina.gob.ar/transporte/trenes-argentinos/horarios-tarifas-y-recorridos/servicios-regionales-larga-distancia/regionalcordoba">Tren de la Sierras</a></li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://www.argentina.gob.ar/transporte/trenes-argentinos/horarios-tarifas-y-recorridos/areametropolitana/lineamitre"
+                      >Líena Mitre</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://www.argentina.gob.ar/transporte/trenes-argentinos/horarios-tarifas-y-recorridos/areametropolitana/tren-de-la-costa/av-maipu-delta"
+                      >Tren de la Costa</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://www.argentina.gob.ar/transporte/trenes-argentinos/horarios-tarifas-y-recorridos/servicios-regionales-larga-distancia/regionalchaco"
+                      >Regional Chaco
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://www.argentina.gob.ar/transporte/trenes-argentinos/horarios-tarifas-y-recorridos/servicios-regionales-larga-distancia/regionalsalta"
+                      >Regional Salta</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://www.argentina.gob.ar/transporte/trenes-argentinos/horarios-tarifas-y-recorridos/servicios-regionales-larga-distancia/regionalcordoba"
+                      >Tren de la Sierras</a
+                    >
+                  </li>
 
                   <!-- <li><a class="dropdown-item" href="https://www.argentina.gob.ar/transporte/trenes-argentinos/horarios-tarifas-y-recorridos/areametropolitana/linearoca">Roca</a></li>
                   <li><a class="dropdown-item" href="https://www.argentina.gob.ar/transporte/trenes-argentinos/horarios-tarifas-y-recorridos/areametropolitana/lineasarmiento">Sarmiento</a></li>
@@ -121,18 +199,23 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Material rodante</a>
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Material rodante</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Encuesta</a>
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Encuesta</a
+                >
               </li>
             </ul>
+            <h1 class="position-absolute bottom-0 end-25 titulo m-2">
+              Al futuro se viaja EN TREN
+            </h1>
           </div>
         </div>
       </div>
     </nav>
-  </head>
-  <body>
     <!-- -------------------------------------version web------------------------------------------------- -->
     <main
       class="position-absolute top-50 start-50 translate-middle m-4 d-none d-xxl-block d-xxxl-none"
@@ -250,7 +333,7 @@
         src="https://i.ibb.co/MDwkq4b/LOGO.png"
         alt=""
       />
-      
+
       <div class="d-flex justify-content-center h-100">
         <button
           class="align-self-center roboto-mono position-absolute animate__animated animate__lightSpeedInLeft"
@@ -274,36 +357,37 @@
               alt="..."
             />
             <div
-              class="carousel-caption d-flex flex-column justify-content-center top-0 start-0 text-white w-100"
+              class="carousel-caption d-flex flex-column justify-content-center top-0 start-0 text-white w-100 h-100"
             >
-              <div class="p-2 bg-ferro-mobile textcolor m-2 roboto-mono">
-                <h3>La importancia de los trenes en la sociedad</h3>
-              </div>
-              <div class="roboto-mono">
-                <button
-                  type="button"
-                  id="boton_alert"
-                  class="btn btn-primary btn-lg animate__animated animate__pulse animate__infinite"
+              <div class="">
+                <div
+                  class="p-2 bg-ferro-mobile textcolor roboto-mono position-absolute contenedor-titulo translate-middle"
                 >
-                  Mas informacion
-                </button>
-              </div>
-              <div class="mt-5 m-2 p-2 bg-ferro-mobile">
-                <h3 class="roboto-mono">
-                  Colabora haciendo click en el boton de abajo!
-                </h3>
-              </div>
-              <div>
-                <a href="https://chng.it/Lj4djB2YS8">
+                  <h3>La importancia de los trenes en la sociedad</h3>
                   <button
                     type="button"
-                    id=""
-                    class="btn btn-firma btn-lg animate__animated animate__pulse animate__infinite"
+                    id="boton_alert"
+                    class="btn btn-primary btn-lg animate__animated animate__pulse animate__infinite"
                   >
-                    ¡Firma!
-                  </button></a
+                    Mas informacion
+                  </button>
+                </div>
+                <div
+                  class="position-absolute bottom-0 start-50 translate-middle w-100"
                 >
-                
+                  <a
+                    class="p-2 stextcolor mt-5 roboto-mono"
+                    href="https://chng.it/Lj4djB2YS8"
+                  >
+                    <button
+                      type="button"
+                      id=""
+                      class="btn btn-firma btn-lg animate__animated animate__pulse animate__infinite"
+                    >
+                      ¡Firma nuestra peticion!
+                    </button></a
+                  >
+                </div>
               </div>
             </div>
           </div>
@@ -314,12 +398,13 @@
               alt="..."
             />
             <div
-              class="carousel-caption d-flex flex-column justify-content-center top-0 start-0 text-white w-100"
-            >
-              <div class="p-2 bg-ferro-mobile textcolor m-2 roboto-mono">
-                <h3>Ventajas Económicas del Ferrocarril</h3>
-              </div>
-              <div class="roboto-mono">
+            class="carousel-caption d-flex flex-column justify-content-center top-0 start-0 text-white w-100 h-100"
+          >
+            <div class="">
+              <div
+                class="p-2 bg-ferro-mobile textcolor roboto-mono position-absolute contenedor-titulo translate-middle"
+              >
+                <h3>La importancia de los trenes en la sociedad</h3>
                 <button
                   type="button"
                   id="boton_alert1"
@@ -328,23 +413,24 @@
                   Mas informacion
                 </button>
               </div>
-              <div class="mt-5 m-2 p-2 bg-ferro-mobile">
-                <h3 class="roboto-mono">
-                  Colabora haciendo click en el boton de abajo!
-                </h3>
-              </div>
-              <div>
-                <a href="https://chng.it/Lj4djB2YS8">
+              <div
+                class="position-absolute bottom-0 start-50 translate-middle w-100"
+              >
+                <a
+                  class="p-2 stextcolor mt-5 roboto-mono"
+                  href="https://chng.it/Lj4djB2YS8"
+                >
                   <button
                     type="button"
                     id=""
                     class="btn btn-firma btn-lg animate__animated animate__pulse animate__infinite"
                   >
-                  ¡Firma!
+                    ¡Firma nuestra peticion!
                   </button></a
                 >
               </div>
             </div>
+          </div>
           </div>
           <div class="carousel-item">
             <img
@@ -353,12 +439,13 @@
               alt="..."
             />
             <div
-              class="carousel-caption d-flex flex-column justify-content-center top-0 start-0 text-white w-100"
-            >
-              <div class="p-2 bg-ferro-mobile textcolor m-2 roboto-mono">
-                <h3>Los paises con ferrocarril</h3>
-              </div>
-              <div class="roboto-mono">
+            class="carousel-caption d-flex flex-column justify-content-center top-0 start-0 text-white w-100 h-100"
+          >
+            <div class="">
+              <div
+                class="p-2 bg-ferro-mobile textcolor roboto-mono position-absolute contenedor-titulo translate-middle"
+              >
+                <h3>La importancia de los trenes en la sociedad</h3>
                 <button
                   type="button"
                   id="boton_alert2"
@@ -367,23 +454,24 @@
                   Mas informacion
                 </button>
               </div>
-              <div class="mt-5 m-2 p-2 bg-ferro-mobile">
-                <h3 class="roboto-mono">
-                  Colabora haciendo click en el boton de abajo!
-                </h3>
-              </div>
-              <div>
-                <a href="https://chng.it/Lj4djB2YS8">
+              <div
+                class="position-absolute bottom-0 start-50 translate-middle w-100"
+              >
+                <a
+                  class="p-2 stextcolor mt-5 roboto-mono"
+                  href="https://chng.it/Lj4djB2YS8"
+                >
                   <button
                     type="button"
                     id=""
                     class="btn btn-firma btn-lg animate__animated animate__pulse animate__infinite"
                   >
-                  ¡Firma!
+                    ¡Firma nuestra peticion!
                   </button></a
                 >
               </div>
             </div>
+          </div>
           </div>
           <div class="carousel-item">
             <img
@@ -392,12 +480,13 @@
               alt="..."
             />
             <div
-              class="carousel-caption d-flex flex-column justify-content-center top-0 start-0 text-white w-100"
-            >
-              <div class="p-2 bg-ferro-mobile textcolor m-2 roboto-mono">
-                <h3>Los trenes y sus ventajas ambientales</h3>
-              </div>
-              <div class="roboto-mono">
+            class="carousel-caption d-flex flex-column justify-content-center top-0 start-0 text-white w-100 h-100"
+          >
+            <div class="">
+              <div
+                class="p-2 bg-ferro-mobile textcolor roboto-mono position-absolute contenedor-titulo translate-middle"
+              >
+                <h3>La importancia de los trenes en la sociedad</h3>
                 <button
                   type="button"
                   id="boton_alert3"
@@ -406,23 +495,24 @@
                   Mas informacion
                 </button>
               </div>
-              <div class="mt-5 m-2 p-2 bg-ferro-mobile">
-                <h3 class="roboto-mono">
-                  Colabora haciendo click en el boton de abajo!
-                </h3>
-              </div>
-              <div>
-                <a href="https://chng.it/Lj4djB2YS8">
+              <div
+                class="position-absolute bottom-0 start-50 translate-middle w-100"
+              >
+                <a
+                  class="p-2 stextcolor mt-5 roboto-mono"
+                  href="https://chng.it/Lj4djB2YS8"
+                >
                   <button
                     type="button"
                     id=""
                     class="btn btn-firma btn-lg animate__animated animate__pulse animate__infinite"
                   >
-                  ¡Firma!
+                    ¡Firma nuestra peticion!
                   </button></a
                 >
               </div>
             </div>
+          </div>
           </div>
           <div class="carousel-item">
             <img
@@ -489,7 +579,7 @@
           data-bs-slide="prev"
           id="boton-slidep"
         >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="bi bi-arrow-left-square-fill" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
         <button
@@ -499,14 +589,14 @@
           data-bs-slide="next"
           id="boton-sliden"
         >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="bi bi-arrow-right-square-fill" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
       <footer id="footer" class="bg-body-tertiary text-center">
         <!-- Grid container -->
         <div class="container p-4 pb-0">
-          <h1 class="roboto-mono">Al futuro se viaja en tren</h1>
+          <h1 class="roboto-mono">Al futuro se viaja EN TREN</h1>
 
           <!-- Section: Social media -->
           <section class="mb-4">

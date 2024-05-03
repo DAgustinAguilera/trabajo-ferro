@@ -285,12 +285,12 @@ botonTrenesRegionales.onclick = ()=>{
 
     var latlngs = [
       [1060, 288], // Coordenadas iniciales
-      [1000, 288], // Coordenadas finales
+      [980, 288], // Coordenadas finales
     ];
     var polyline = L.polyline(latlngs, {color: 'rgba(255, 0, 0, 0.600)',weight: 10}).addTo(map);
     
     var latlngs2 = [
-      [1000, 288], // Coordenadas iniciales
+      [975, 288], // Coordenadas iniciales
       [750, 288], // Coordenadas finales
     ];
     var polyline2 = L.polyline(latlngs2, {color: 'rgba(0, 128, 0, 0.600)',weight: 10}).addTo(map);

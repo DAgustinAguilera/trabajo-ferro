@@ -163,7 +163,11 @@ body, html {
     font-weight: 400;
     font-style: normal;
 }
-
+.contenedor-titulo{
+    left: 50%;
+    top: 20%;
+    width: 90%;
+}
 .roboto-mono {
     font-family: "Squada One", sans-serif;
     font-weight: 400;
@@ -171,7 +175,9 @@ body, html {
 
 }
 
-
+.titulo{
+    color: rgb(90, 89, 89);
+}
 .textcolor{
     color: white;
     font-size: 2ch;
@@ -200,10 +206,16 @@ div:where(.swal2-container) button:where(.swal2-close) {
 }
 .carousel-control-prev, .carousel-control-next {
     color: black;
+
 }
 .carousel-control-prev:focus, .carousel-control-next:focus {
-    color: black;
+    color: rgb(123, 123, 123);
 }
 .carousel-control-prev:hover, .carousel-control-next:hover {
-    color: rgb(50, 50, 50);
+    color: rgb(162, 162, 162);
+}
+.carousel-control-prev, .carousel-control-next {
+    font-size: 5ch !important;
+    color: white;
+    opacity: 100 !important;;
 }
