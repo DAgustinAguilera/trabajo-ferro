@@ -168,6 +168,11 @@ body, html {
     top: 20%;
     width: 90%;
 }
+.contenedor-firma{
+    left: 50%;
+    bottom: 10%;
+    width: 90%;
+}
 .roboto-mono {
     font-family: "Squada One", sans-serif;
     font-weight: 400;
@@ -186,6 +191,7 @@ body, html {
 #footer{
     display: none;
 }
+
 #map {
     width: 100%;
     height: 600px;
