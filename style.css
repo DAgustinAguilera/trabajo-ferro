@@ -32,7 +32,7 @@ body, html {
 .inicio-container {
     height: 100%;
     width: 100%;
-    background-image: url("https://i.ibb.co/cNmmcPC/portada2.jpg");
+    background-image: url("/images/portada2.jpg");
     background-size:contain;
     background-size: cover;
     background-position: center;
@@ -88,6 +88,24 @@ body, html {
     color: rgb(11, 11, 11);;
 
 }
+@keyframes iconoalert {
+    0% {
+        transform: scale(0.9);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(0.9);
+    }
+}
+
+.iconoalert *{
+    animation: pulse 1s infinite alternate;
+    height: 45px;
+    width: 45px;
+}
+
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show, .navbar-brand,.navbar-toggler-icon,.nav-link {
     color: rgb(90, 89, 89);
     font-size: 3.5ch;
@@ -213,6 +231,12 @@ div:where(.swal2-container) button:where(.swal2-close) {
 .carousel-control-prev, .carousel-control-next {
     color: black;
 
+}
+.customTooltip *{
+    font-family: "Squada One", sans-serif!important;
+    font-weight: 400!important;
+    font-style: normal!important;
+  
 }
 .carousel-control-prev:focus, .carousel-control-next:focus {
     color: rgb(123, 123, 123);
