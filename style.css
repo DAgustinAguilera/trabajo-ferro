@@ -223,5 +223,5 @@ div:where(.swal2-container) button:where(.swal2-close) {
 .carousel-control-prev, .carousel-control-next {
     font-size: 5ch !important;
     color: white;
-    opacity: 100 !important;;
+    opacity: 100 !important;
 }
