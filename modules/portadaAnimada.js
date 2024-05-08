@@ -1,4 +1,4 @@
-import { introJSOpciones } from "./IntroPaginaInicial.js";
+import { introJSOpciones } from "./introPaginaInicial.js";
 
 export function portadaAnimada() {
 
