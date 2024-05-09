@@ -79,8 +79,8 @@ body, html {
 
 }
 .dropdown-item{
-    background-color: rgba(22, 93, 121, 0.9);
-    color: rgb(223, 223, 223);
+    background-color: rgba(255, 255, 255, 0.9);
+    color: rgb(76, 76, 76);
     font-size: 3.5ch;
 }
 .navbarcolor{
@@ -89,7 +89,21 @@ body, html {
     color: rgb(11, 11, 11);;
 
 }
-
+.bi-exclamation-diamond-fill{
+    font-size: 4ch;
+    color: red;
+}
+.bi-check-circle-fill{
+    font-size: 4ch;
+    color: green;
+}
+.card{
+    scale: 0.9;
+}
+.card:hover{
+    scale: 1.0;
+    color: black;
+}
 .offcanvas-body {
     background-color: rgba(26, 121, 159, 0.09)!important;
 
