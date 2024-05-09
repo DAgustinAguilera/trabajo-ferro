@@ -1,3 +1,4 @@
+
 .bg-green{
     background-color: rgba(122, 255, 122, 0.121);
     transition: 0.3s;
@@ -82,10 +83,15 @@ body, html {
     color: rgb(223, 223, 223);
     font-size: 3.5ch;
 }
-.navbarcolor, .navbar-dark, .bg-dark{
-    background-color: white;
+.navbarcolor{
+    background-color: rgba(26, 121, 159, 0.901)!important;
     box-shadow: 11px 11px 29px -11px rgba(0,0,0,0.75);
     color: rgb(11, 11, 11);;
+
+}
+
+.offcanvas-body {
+    background-color: rgba(26, 121, 159, 0.09)!important;
 
 }
 @keyframes iconoalert {
@@ -107,12 +113,15 @@ body, html {
 }
 
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show, .navbar-brand,.navbar-toggler-icon,.nav-link {
-    color: rgb(90, 89, 89);
+    color: rgb(255, 255, 255);
     font-size: 3.5ch;
 }
-.nav-link:hover,.navbar-brand:hover{
-    color: rgb(68, 68, 68);
+.nav-link:visited,.navbar-brand:visited{
+    color: rgb(255, 255, 255);
     font-size: 3.5ch;
+}
+.nav-link:hover,.navbar-brand:hover,.nav-link:active,.navbar-brand:active{
+    color: gray;
 }
 .bg-green-mobile{
     background-color: rgba(51, 105, 51, 0.9);
@@ -199,7 +208,7 @@ body, html {
 }
 
 .titulo{
-    color: rgb(90, 89, 89);
+    color: rgb(255, 255, 255);
 }
 .textcolor{
     color: white;
@@ -208,6 +217,15 @@ body, html {
 }
 #footer{
     display: none;
+}
+.bg-body-tertiary {
+    --mdb-bg-opacity: 1;
+    color: white;
+    background-color: rgba(26, 121, 159, 0.9)!important;
+}
+.text-body {
+    --mdb-text-opacity: 1;
+    color: white!important;
 }
 
 #map {
@@ -248,4 +266,7 @@ div:where(.swal2-container) button:where(.swal2-close) {
     font-size: 5ch !important;
     color: white;
     opacity: 100 !important;
+}
+#iconotools{
+    color: white;
 }

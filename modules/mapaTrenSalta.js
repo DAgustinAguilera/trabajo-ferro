@@ -23,7 +23,7 @@ botonTrenesRegionales3.onclick = ()=>{
         className: 'iconoalert'
     });
   
-      var imageUrl = 'https://i.ibb.co/6rVGpdm/planomitre.png';
+      var imageUrl = '/images/PlanoSalta.png';
       var imageBounds = [[0, 0], [1131, 1131]]; // Dimensiones de la imagen
       L.imageOverlay(imageUrl, imageBounds, {interactive: false}).addTo(map); // Desactivar la interactividad de la imagen
   
@@ -39,23 +39,6 @@ botonTrenesRegionales3.onclick = ()=>{
   
      var marker3 = L.marker([700, 500],{icon: myIcon}).addTo(map)
       .bindPopup("<b>Punto 3</b><br>Descripción del punto 3.");
-  
-      var latlngs = [
-        [1060, 288], // Coordenadas iniciales
-        [1000, 288], // Coordenadas finales
-      ];
-      var polyline = L.polyline(latlngs, {color: 'rgba(255, 0, 0, 0.600)',weight: 10}).addTo(map);
-      
-      var latlngs2 = [
-        [1000, 288], // Coordenadas iniciales
-        [750, 288], // Coordenadas finales
-      ];
-      var polyline2 = L.polyline(latlngs2, {color: 'rgba(0, 128, 0, 0.600)',weight: 10}).addTo(map);
-  
-  
-      // Añadir un popup a la línea
-      polyline.bindPopup("Tramo clausurado por estado de via").closePopup();
-      polyline2.bindPopup("Tramo renovado").closePopup();
   
     }  
 }

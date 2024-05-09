@@ -23,7 +23,7 @@ botonTrenesRegionales2.onclick = ()=>{
         className: 'iconoalert'
     });
   
-      var imageUrl = 'https://i.ibb.co/6rVGpdm/planomitre.png';
+      var imageUrl = '/images/PlanoChaco.png';
       var imageBounds = [[0, 0], [1131, 1131]]; // Dimensiones de la imagen
       L.imageOverlay(imageUrl, imageBounds, {interactive: false}).addTo(map); // Desactivar la interactividad de la imagen
   
