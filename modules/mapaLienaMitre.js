@@ -35,7 +35,6 @@ export function iniciarMapaMitre() {
       iconSize: [45, 45],
     });
 
-
     var imageUrl = "/images/planomitre.png";
     var imageBounds = [
       [0, 0],
@@ -52,19 +51,19 @@ export function iniciarMapaMitre() {
     var car_cap_mark = L.marker([1040, 340], { icon: myIcon })
       .addTo(map)
       .bindPopup(
-        '<b class="roboto-mono">Los Cardales - Capilla del señor</b><br><b class="roboto-mono">Sector de via a 30km/h sin renovar</b>'
+        '<b class="roboto-mono d-flex justify-content-center">Los Cardales - Capilla del señor</b><br><b class="roboto-mono">Sector de via a 30km/h sin renovar</b>'
       );
 
     var cap_car_mark = L.marker([900, 340], { icon: myIcon })
       .addTo(map)
       .bindPopup(
-        '<b class="roboto-mono">El talar - Los Cardales</b><br><b class="roboto-mono">Secto de via a 80km/h renovada en 2023</b>'
+        '<b class="roboto-mono d-flex justify-content-center">El talar - Los Cardales</b><br><b class="roboto-mono">Secto de via a 80km/h renovada en 2023</b>'
       );
 
     var vic_tal_mark = L.marker([745, 630], { icon: myIcon3 })
       .addTo(map)
       .bindPopup(
-        '<b class="roboto-mono">Victoria - El Talar</b><br><b class="roboto-mono">Sector de via a 30kmh/h no renovado</b>'
+        '<b class="roboto-mono d-flex justify-content-center">Victoria - El Talar</b><br><b class="roboto-mono">Sector de via a 30kmh/h no renovado</b>'
       );
 
     // ------------------------------------------- Sector ep capilla del señor victoria --------------------------------------------
@@ -99,10 +98,10 @@ export function iniciarMapaMitre() {
 
     // ------------------------------------------- Sector ep Zarate - Suarez --------------------------------------------
 
-    var vic_tal_mark = L.marker([965, 420], { icon: myIcon2 })
+    var suar_zar_mark = L.marker([965, 420], { icon: myIcon2 })
       .addTo(map)
       .bindPopup(
-        '<b class="roboto-mono">Suarez - Zarate</b><br><b class="roboto-mono">Sector de via a 120kmh/h renovado en 2014</b>'
+        '<b class="roboto-mono d-flex justify-content-center">Suarez - Zarate</b><br><b class="roboto-mono">Sector de via a 120kmh/h renovado en 2014</b>'
       );
 
     var car_cap = [
@@ -123,6 +122,9 @@ export function iniciarMapaMitre() {
       map
     );
 
+    // ------------------------------------------- Sector ep Zarate - Suarez --------------------------------------------
+
+    // ------------------------------------------- Sector bp Retiro - Suarez --------------------------------------------
     var zua_ret = [
       [598, 288],
       [365, 288],
@@ -142,6 +144,90 @@ export function iniciarMapaMitre() {
     L.polyline(zua_ret, { color: "rgba(0, 128, 0, 0.600)", weight: 10 }).addTo(
       map
     );
-    // ------------------------------------------- Sector ep Zarate - Suarez --------------------------------------------
+
+    var sua_ret_mark = L.marker([390, 340], { icon: myIcon })
+      .addTo(map)
+      .bindPopup(
+        '<b class="roboto-mono d-flex justify-content-center">Suarez - Emp. Maldonado</b><br><b class="roboto-mono">Sector de via a 60/80km/h renovada</b>'
+      );
+
+    var ret_mal_mark = L.marker([40, 845], { icon: myIcon2 })
+      .addTo(map)
+      .bindPopup(
+        '<b class="roboto-mono d-flex justify-content-center">Retiro - Emp. Maldonado</b><br><b class="roboto-mono">Sector de via a 70kmh/h renovado en 2005</b>'
+      );
+    // ------------------------------------------- Sector bp Retiro - Suarez --------------------------------------------
+
+
+
+
+
+
+
+    // ------------------------------------------- TDC --------------------------------------------
+
+
+    var ret_cog = [
+      [250, 515],
+      [230, 515],
+      [225, 515],
+      [220, 518],
+      [128, 603],
+      [125, 608],
+      [121, 618],
+      [121, 828],
+      [113, 843],
+      [33, 923],
+    ];
+    L.polyline(ret_cog, { color: "rgba(0, 128, 0, 0.600)", weight: 10 }).addTo(
+      map
+    );
+
+
+    var cog_mit = [
+      [439, 584],
+      [439, 563],
+      [435, 552],
+      [408, 524],
+      [398, 518],
+      [395, 517],
+      [390, 515],
+      [250, 515],
+    ];
+    L.polyline(cog_mit, { color: "rgba(200, 128, 0, 0.600)", weight: 10 }).addTo(
+      map
+    );
+
+
+    var cog_mit = [
+      [911, 869],
+      [505, 869],
+      [495, 867],
+      [490, 866],
+      [450, 828],
+      [444, 820],
+      [442, 815],
+      [440, 810],
+      [439, 805],
+      [439, 584],
+    ];
+    L.polyline(cog_mit, { color: "rgba(200, 128, 0, 0.600)", weight: 10 }).addTo(
+      map
+    );
+
+    // ------------------------------------------- TFC --------------------------------------------
+    // ------------------------------------------- AP - Retiro - Tigre --------------------------------------------
+
+    var cog_mit = [
+      [911, 705],
+      [290, 705],
+      [270, 710],
+      [42, 935],
+    ];
+    L.polyline(cog_mit, { color: "rgba(200, 128, 0, 0.600)", weight: 10 }).addTo(
+      map
+    );
+    // ------------------------------------------- AP - Retiro - Tigre --------------------------------------------
+
   };
 }
