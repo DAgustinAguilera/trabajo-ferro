@@ -50,31 +50,27 @@ botonTrenesRegionales3.onclick = ()=>{
 
   // ------------------------------------------- Sector ep capilla del señor victoria --------------------------------------------
 
-  var car_cap_mark = L.marker([1040, 340], { icon: myIcon })
+  var camp_gue_mark = L.marker([650, 340], { icon: myIcon2 })
     .addTo(map)
     .bindPopup(
-      '<b class="roboto-mono d-flex justify-content-center">Los Cardales - Capilla del señor</b><br><b class="roboto-mono">Sector de via a 30km/h sin renovar</b>'
+      '<b class="roboto-mono d-flex justify-content-center">Guemes - Campo Quijano</b><br><b class="roboto-mono"> Velocidad máxima de vía: 40km/h. Infraestructura sin renovación.<br> Precauciones a 20km/h. debido a falta de cerramiento de perímetro.</b>'
     );
-
-  var cap_car_mark = L.marker([900, 340], { icon: myIcon })
-    .addTo(map)
-    .bindPopup(
-      '<b class="roboto-mono d-flex justify-content-center">El talar - Los Cardales</b><br><b class="roboto-mono">Secto de via a 80km/h renovada en 2023</b>'
-    );
-
-  var vic_tal_mark = L.marker([745, 630], { icon: myIcon3 })
-    .addTo(map)
-    .bindPopup(
-      '<b class="roboto-mono d-flex justify-content-center">Victoria - El Talar</b><br><b class="roboto-mono">Sector de via a 30kmh/h no renovado</b>'
-    );
-
 
     var camp_gue = [
       [555, 215],
-      [500, 270],
+      [515, 255],
+      [510, 265],
+      [507, 275],
+      [507, 285],
+      [513, 300],
+      [643, 430],
+      [648, 440],
+      [650, 450],
+      [650, 900],
+
     ];
     L.polyline(camp_gue, {
-      color: "rgba(0, 128, 0, 0.600)",
+      color: "rgba(200, 200, 0, 0.6)",
       weight: 10,
     }).addTo(map);
 

@@ -51,19 +51,19 @@ export function iniciarMapaMitre() {
     var car_cap_mark = L.marker([1040, 340], { icon: myIcon })
       .addTo(map)
       .bindPopup(
-        '<b class="roboto-mono d-flex justify-content-center">Los Cardales - Capilla del señor</b><br><b class="roboto-mono">Sector de via a 30km/h sin renovar</b>'
+        '<b class="roboto-mono d-flex justify-content-center">Los Cardales - Capilla del señor</b><br><b class="roboto-mono">Velocidad máxima: 30km/h.</br>Motivo: infraestructura sin renovar, pasos a nivel sin barrera y mal estado de puentes</b>'
       );
 
     var cap_car_mark = L.marker([900, 340], { icon: myIcon })
       .addTo(map)
       .bindPopup(
-        '<b class="roboto-mono d-flex justify-content-center">El talar - Los Cardales</b><br><b class="roboto-mono">Secto de via a 80km/h renovada en 2023</b>'
+        '<b class="roboto-mono d-flex justify-content-center">El talar - Los Cardales</b><br><b class="roboto-mono">Velocidad máxima: 80km/h.</br>Precauciones: 12-40km/h por pasos a nivel sin barrera, puentes sin renovar, mal estado de cambios de via y falta de cerramiento perimetral</b>'
       );
 
     var vic_tal_mark = L.marker([745, 630], { icon: myIcon3 })
       .addTo(map)
       .bindPopup(
-        '<b class="roboto-mono d-flex justify-content-center">Victoria - El Talar</b><br><b class="roboto-mono">Sector de via a 30kmh/h no renovado</b>'
+        '<b class="roboto-mono d-flex justify-content-center">Victoria - El Talar</b><br><b class="roboto-mono">velocidad máxima 30kmh/h</br>Motivo: Via sin renovar.</br>Precauciones: a 12 km/h por mal estado de puentes en general</b>'
       );
 
     // ------------------------------------------- Sector ep capilla del señor victoria --------------------------------------------
@@ -101,7 +101,7 @@ export function iniciarMapaMitre() {
     var suar_zar_mark = L.marker([965, 420], { icon: myIcon2 })
       .addTo(map)
       .bindPopup(
-        '<b class="roboto-mono d-flex justify-content-center">Suarez - Zarate</b><br><b class="roboto-mono">Sector de via a 120kmh/h renovado en 2014</b>'
+        '<b class="roboto-mono d-flex justify-content-center">Suarez - Zarate</b><br><b class="roboto-mono">Velocidad maxima: 120kmh. Via renovada en 2014/h</br>Precauciones: entre 12 y 40km/h por mal estado de cambios, pasos a nivel sin barrera y faltante de durmientes/b>'
       );
 
     var car_cap = [
@@ -148,13 +148,13 @@ export function iniciarMapaMitre() {
     var sua_ret_mark = L.marker([390, 340], { icon: myIcon })
       .addTo(map)
       .bindPopup(
-        '<b class="roboto-mono d-flex justify-content-center">Suarez - Emp. Maldonado</b><br><b class="roboto-mono">Sector de via a 60/80km/h renovada</b>'
+        '<b class="roboto-mono d-flex justify-content-center">Suarez - Emp. Maldonado</b><br><b class="roboto-mono">Velocidad maxima: 60/80km/h.</br>Precauciones: entre 5 y 30km/h por ingresos a terminal, pasos a nivel, puentes en general y mal estado de cambios</b>'
       );
 
     var ret_mal_mark = L.marker([40, 845], { icon: myIcon2 })
       .addTo(map)
       .bindPopup(
-        '<b class="roboto-mono d-flex justify-content-center">Retiro - Emp. Maldonado</b><br><b class="roboto-mono">Sector de via a 70kmh/h renovado en 2005</b>'
+        '<b class="roboto-mono d-flex justify-content-center">Retiro - Emp. Maldonado</b><br><b class="roboto-mono">Velocidad máxima: 70kmh/h. Vía renovada 2005</b>'
       );
     // ------------------------------------------- Sector bp Retiro - Suarez --------------------------------------------
 
@@ -247,22 +247,22 @@ export function iniciarMapaMitre() {
     var nun_emp = L.marker([180, 760], { icon: myIcon2 })
       .addTo(map)
       .bindPopup(
-        '<b class="roboto-mono d-flex justify-content-center">Nuñez - Emp. Maldonado</b><br><b class="roboto-mono">Sector de via a 60kmh/h por tercel riel sin renovar</b>'
+        '<b class="roboto-mono d-flex justify-content-center">Nuñez - Emp. Maldonado</b><br><b class="roboto-mono">Velocidad máxima: 60kmh/h</br>Motivo: Mal estado de tercer riel</b>'
       );
     var ret_emp = L.marker([100, 960], { icon: myIcon })
       .addTo(map)
       .bindPopup(
-        '<b class="roboto-mono d-flex justify-content-center">Retiro - Emp. Maldonado</b><br><b class="roboto-mono">Sector de via a 80km/h via renovada en 2005</b>'
+        '<b class="roboto-mono d-flex justify-content-center">Retiro - Emp. Maldonado</b><br><b class="roboto-mono">Velocidad máxima: 80km/h. Vía renovada en 2005</b>'
       );
       var sanfer_nuñez = L.marker([550, 660], { icon: myIcon2 })
       .addTo(map)
       .bindPopup(
-        '<b class="roboto-mono d-flex justify-content-center">San Fernando - Nuñez</b><br><b class="roboto-mono">Sector de via a 30/40 km/h por estado de infrastructura</b>'
+        '<b class="roboto-mono d-flex justify-content-center">San Fernando - Nuñez</b><br><b class="roboto-mono">Velocidad máxima: 30/40 km/h</br>Motivo: por mal estado de la infraestructura de vía</br>Precauciones: a 12 km/h por mal estado de los cambios</b>'
       );
       var sanfer_tigre = L.marker([880, 660], { icon: myIcon2 })
       .addTo(map)
       .bindPopup(
-        '<b class="roboto-mono d-flex justify-content-center">Tigre - San Fernando</b><br><b class="roboto-mono">Sector de via a 60 km/h por estado de via ultima renovacion 1985</b>'
+        '<b class="roboto-mono d-flex justify-content-center">Tigre - San Fernando</b><br><b class="roboto-mono">Velocidad máxima: 60 km/h. Última renovación de vía 1985</b>'
       );
     // ------------------------------------------- AP - Retiro - Tigre --------------------------------------------
   };

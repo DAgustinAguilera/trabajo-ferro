@@ -97,13 +97,20 @@ body, html {
     font-size: 4ch;
     color: green;
 }
-.card{
-    scale: 0.9;
+.row *{
+    scale: 0.94;
 }
-.card:hover{
-    scale: 1.0;
-    color: black;
+.row:hover *{
+    scale: 1;
 }
+.card *{
+    scale: 1 !important;
+    height: 4rem;
+    display: flex !important;
+    justify-content:space-around !important;
+    align-items: center !important;
+}
+
 .offcanvas-body {
     background-color: rgba(26, 121, 159, 0.09)!important;
 
