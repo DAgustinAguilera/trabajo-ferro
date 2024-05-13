@@ -158,14 +158,7 @@ export function iniciarMapaMitre() {
       );
     // ------------------------------------------- Sector bp Retiro - Suarez --------------------------------------------
 
-
-
-
-
-
-
     // ------------------------------------------- TDC --------------------------------------------
-
 
     var ret_cog = [
       [250, 515],
@@ -183,7 +176,6 @@ export function iniciarMapaMitre() {
       map
     );
 
-
     var cog_mit = [
       [439, 584],
       [439, 563],
@@ -194,10 +186,10 @@ export function iniciarMapaMitre() {
       [390, 515],
       [250, 515],
     ];
-    L.polyline(cog_mit, { color: "rgba(200, 128, 0, 0.600)", weight: 10 }).addTo(
-      map
-    );
-
+    L.polyline(cog_mit, {
+      color: "rgba(200, 128, 0, 0.600)",
+      weight: 10,
+    }).addTo(map);
 
     var cog_mit = [
       [911, 869],
@@ -211,23 +203,67 @@ export function iniciarMapaMitre() {
       [439, 805],
       [439, 584],
     ];
-    L.polyline(cog_mit, { color: "rgba(200, 128, 0, 0.600)", weight: 10 }).addTo(
-      map
-    );
+    L.polyline(cog_mit, {
+      color: "rgba(200, 128, 0, 0.600)",
+      weight: 10,
+    }).addTo(map);
 
     // ------------------------------------------- TFC --------------------------------------------
     // ------------------------------------------- AP - Retiro - Tigre --------------------------------------------
 
-    var cog_mit = [
-      [911, 705],
+    var sanfer_emp = [
+      [800, 705],
       [290, 705],
       [270, 710],
+      [217, 762],
+    ];
+    L.polyline(sanfer_emp, {
+      color: "rgba(200, 128, 0, 0.600)",
+      weight: 10,
+    }).addTo(map);
+    var tigre_sanfer = [
+      [911, 705],
+      [800, 705],
+    ];
+    L.polyline(tigre_sanfer, {
+      color: "rgba(0, 128, 0, 0.600)",
+      weight: 10,
+    }).addTo(map);
+    var emp_ret = [
+      [120, 856],
       [42, 935],
     ];
-    L.polyline(cog_mit, { color: "rgba(200, 128, 0, 0.600)", weight: 10 }).addTo(
+    L.polyline(emp_ret, { color: "rgba(0, 128, 0, 0.600)", weight: 10 }).addTo(
       map
     );
-    // ------------------------------------------- AP - Retiro - Tigre --------------------------------------------
+    var emp_ret = [
+      [217, 762],
+      [120, 856],
+    ];
+    L.polyline(emp_ret, { color: "rgba(0, 128, 0, 0.600)", weight: 10 }).addTo(
+      map
+    );
 
+    var nun_emp = L.marker([180, 760], { icon: myIcon2 })
+      .addTo(map)
+      .bindPopup(
+        '<b class="roboto-mono d-flex justify-content-center">Nuñez - Emp. Maldonado</b><br><b class="roboto-mono">Sector de via a 60kmh/h por tercel riel sin renovar</b>'
+      );
+    var ret_emp = L.marker([100, 960], { icon: myIcon })
+      .addTo(map)
+      .bindPopup(
+        '<b class="roboto-mono d-flex justify-content-center">Retiro - Emp. Maldonado</b><br><b class="roboto-mono">Sector de via a 80km/h via renovada en 2005</b>'
+      );
+      var sanfer_nuñez = L.marker([550, 660], { icon: myIcon2 })
+      .addTo(map)
+      .bindPopup(
+        '<b class="roboto-mono d-flex justify-content-center">San Fernando - Nuñez</b><br><b class="roboto-mono">Sector de via a 30/40 km/h por estado de infrastructura</b>'
+      );
+      var sanfer_tigre = L.marker([880, 660], { icon: myIcon2 })
+      .addTo(map)
+      .bindPopup(
+        '<b class="roboto-mono d-flex justify-content-center">Tigre - San Fernando</b><br><b class="roboto-mono">Sector de via a 60 km/h por estado de via ultima renovacion 1985</b>'
+      );
+    // ------------------------------------------- AP - Retiro - Tigre --------------------------------------------
   };
 }
