@@ -37,7 +37,7 @@ botonTrenesRegionales3.onclick = ()=>{
     iconSize: [45, 45],
   });
 
-  var imageUrl = "/images/planoSalta.png";
+  var imageUrl = "/images/PlanoSalta.png";
   var imageBounds = [
     [0, 0],
     [1131, 1131],
