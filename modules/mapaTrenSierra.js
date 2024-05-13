@@ -50,25 +50,6 @@ botonTrenesRegionales4.onclick = ()=>{
 
   // ------------------------------------------- Sector ep capilla del señor victoria --------------------------------------------
 
-  var car_cap_mark = L.marker([1040, 340], { icon: myIcon })
-    .addTo(map)
-    .bindPopup(
-      '<b class="roboto-mono d-flex justify-content-center">Los Cardales - Capilla del señor</b><br><b class="roboto-mono">Sector de via a 30km/h sin renovar</b>'
-    );
-
-  var cap_car_mark = L.marker([900, 340], { icon: myIcon })
-    .addTo(map)
-    .bindPopup(
-      '<b class="roboto-mono d-flex justify-content-center">El talar - Los Cardales</b><br><b class="roboto-mono">Secto de via a 80km/h renovada en 2023</b>'
-    );
-
-  var vic_tal_mark = L.marker([745, 630], { icon: myIcon3 })
-    .addTo(map)
-    .bindPopup(
-      '<b class="roboto-mono d-flex justify-content-center">Victoria - El Talar</b><br><b class="roboto-mono">Sector de via a 30kmh/h no renovado</b>'
-    );
-
-
     var capM_valle = [
       [890, 145],
       [680, 145],
