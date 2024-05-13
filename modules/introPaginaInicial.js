@@ -1,5 +1,17 @@
+
+
 export function introJSOpciones() {
-var intro = introJs();
+  const principal = document.getElementById("contenido-principal");
+
+  Fancybox.bind('[data-fancybox="gallery"]', {
+    // Your custom options
+  });
+  var ancho = window.innerWidth;
+  if (ancho <= 576){
+    var intro = introJs();
+  
+
+
 
 intro.setOptions({
     steps: [
@@ -35,4 +47,5 @@ intro.setOptions({
     
   });
   intro.start();
+}
 }

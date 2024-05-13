@@ -5,7 +5,6 @@ import { iniciarMapaMitre } from './modules/mapaLienaMitre.js';
 import { iniciarMapaSierra } from './modules/mapaTrenSierra.js';
 import { iniciarMapaChaco } from './modules/mapaTrenChaco.js';
 import { iniciarMapaSalta } from './modules/mapaTrenSalta.js';
-
 import { boton_servicios } from './modules/estadoDeServicio.js';
 
 import { botonesAlertsInfo } from './modules/botonesAlertInformacion.js';
@@ -16,7 +15,6 @@ iniciarMapaSalta();
 iniciarMapaSierra();
 boton_servicios();
 botonesAlertsInfo();
-
 animacionBotonesPortada();
 portadaAnimada()
 

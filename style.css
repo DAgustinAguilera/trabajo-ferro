@@ -97,10 +97,10 @@ body, html {
     font-size: 4ch;
     color: green;
 }
-.row *{
+.row1 *{
     scale: 0.94;
 }
-.row:hover *{
+.row1:hover *{
     scale: 1;
 }
 .card *{
@@ -211,6 +211,23 @@ body, html {
     font-weight: 400;
     font-style: normal;
 }
+.main-pc{
+    height: 1rem;
+}
+.btn-material *{
+    color: #fff !important;
+    font-size: 3ch !important;
+    background-color:rgba(32, 168, 222, 0.945);
+    margin-top: 2px;
+    scale: 0.9;
+    text-align: center;
+    height: 5rem;
+}   
+.btn-material:hover *{
+    color: #fff !important;
+    background-color:rgba(32, 168, 222, 0.945);
+}
+
 .contenedor-titulo{
     left: 50%;
     top: 20%;
@@ -237,6 +254,9 @@ body, html {
 
 }
 #footer{
+    display: none;
+}
+#footer-pc{
     display: none;
 }
 .bg-body-tertiary {

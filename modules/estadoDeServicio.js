@@ -4,7 +4,7 @@ export function boton_servicios() {
   boton_servicio.onclick = () => {
     Swal.fire({
       html: `    <div class="container">
-      <div class="row">
+      <div class="row row1">
         <div class="card col-12">
             <div class="roboto-mono">
               <p>Retiro - Tigre</p>
@@ -12,7 +12,7 @@ export function boton_servicios() {
             </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row row1">
           <div class="card col-12">
               <div class="roboto-mono d-flex justify-content-around align-items-center">
                 <p>Retiro - Tigre</p>
@@ -20,7 +20,7 @@ export function boton_servicios() {
               </div>
           </div>
         </div>
-        <div class="row">
+        <div class="row row1">
           <div class="card col-12">
               <div class="roboto-mono d-flex justify-content-around align-items-center">
                 <p>Retiro - Tigre</p>
@@ -28,7 +28,7 @@ export function boton_servicios() {
               </div>
           </div>
         </div>
-        <div class="row">
+        <div class="row row1">
           <div class="card col-12">
               <div class="roboto-mono d-flex justify-content-around align-items-center">
                 <p>Retiro - Tigre</p>
@@ -36,7 +36,7 @@ export function boton_servicios() {
               </div>
           </div>
         </div>
-        <div class="row">
+        <div class="row row1">
           <div class="card col-12">
               <div class="roboto-mono d-flex justify-content-around align-items-center">
                 <p>Retiro - Tigre</p>
@@ -44,7 +44,7 @@ export function boton_servicios() {
               </div>
           </div>
         </div>
-        <div class="row">
+        <div class="row row1">
           <div class="card col-12">
               <div class="roboto-mono d-flex justify-content-around align-items-center">
                 <p>Retiro - Tigre</p>
@@ -52,7 +52,7 @@ export function boton_servicios() {
               </div>
           </div>
         </div>
-        <div class="row">
+        <div class="row row1">
           <div class="card col-12">
               <div class="roboto-mono d-flex justify-content-around align-items-center">
                 <p>Retiro - Tigre</p>
@@ -60,7 +60,7 @@ export function boton_servicios() {
               </div>
           </div>
         </div>
-        <div class="row">
+        <div class="row row1">
           <div class="card col-12">
               <div class="roboto-mono d-flex justify-content-around align-items-center">
                 <p>Retiro - Tigre</p>
@@ -68,7 +68,7 @@ export function boton_servicios() {
               </div>
           </div>
         </div>
-        <div class="row">
+        <div class="row row1">
           <div class="card col-12">
               <div class="roboto-mono d-flex justify-content-around align-items-center">
                 <p>Retiro - Tigre</p>

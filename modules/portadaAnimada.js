@@ -6,6 +6,8 @@ export function portadaAnimada() {
 const btnInicio = document.getElementById("btn-inicio");
 const inicioImg = document.getElementById("inicio-img");
 const inicioNav = document.getElementById("footer")
+const inicioNavPC = document.getElementById("footer-pc")
+const contenidoPrincipalPC = document.getElementById("contenido-principal-pc");
 const contenidoPrincipal = document.getElementById("contenido-principal");
 const botonsliden = document.getElementById("boton-sliden");
 const botonslidep = document.getElementById("boton-slidep");
@@ -30,6 +32,9 @@ document.addEventListener("DOMContentLoaded", function() {
         navBar.style.display = "block"; // Ocultar la imagen de inicio
         inicioImg.style.display = "none"; // Ocultar la imagen de inicio
         contenidoPrincipal.style.display = "block"; // Mostrar el contenido principal
+        contenidoPrincipalPC.style.display = "block"; // Mostrar el contenido principal
+        inicioNavPC.style.display = "block"; // Ocultar la imagen de inicio
+
         introJSOpciones()
 
     });
