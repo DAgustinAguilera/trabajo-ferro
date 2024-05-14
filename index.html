@@ -57,13 +57,12 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/intro.js@7.2.0/minified/introjs.min.css"
     />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
     />
-    <link rel="stylesheet" href="style.css" />
-    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
-
     <script src="https://cdn.jsdelivr.net/npm/intro.js@7.2.0/intro.min.js"></script>
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
   </head>
@@ -230,21 +229,12 @@
                 <div class="collapse" id="collapseExample">
                   <div class="container">
                       <div class="row btn-material">
-                          <button href="images/imagen carrucel mobiel 2.jpg" data-fancybox="gallery" data-caption="Caption #1" id="img-mitre" class="btn col-4 btn-material">Mitre</button>
-                          <a style="display: none;" href="images/imagen carrucel mobiel 3.jpg" data-fancybox="gallery" data-caption="Caption #1"></a>
-                          <a style="display: none;" href="images/imagen carrucel mobiel 4.jpg" data-fancybox="gallery" data-caption="Caption #1"></a>
-                          <a style="display: none;" href="images/imagen carrucel mobiel.jpg" data-fancybox="gallery" data-caption="Caption #1"></a>
-                          <a style="display: none;" href="images/imagencarrucelmobiel10.jpg" data-fancybox="gallery" data-caption="Caption #1"></a>
-                          <a style="display: none;" href="images/imagencarrucelmobiel6.jpg" data-fancybox="gallery" data-caption="Caption #1"></a>
-                          <a style="display: none;" href="images/imagencarrucelmobiel8.jpg" data-fancybox="gallery" data-caption="Caption #1"></a>
-                          <a style="display: none;" href="images/imagencarrucelmobiel9.jpg" data-fancybox="gallery" data-caption="Caption #1"></a>
-                          <button class="btn col-4 btn-material">Roca</button>
-                          <button class="btn col-4 btn-material">Sarmiento</button>
+                          <button id="boton-formaciones-electricas" class="btn col-6 btn-material" >Mitre</button>
+                          <button id="boton-diesel-electricas" class="btn col-6 btn-material">Roca</button>
                       </div>
                       <div class="row btn-material">
-                        <button class="btn col-4 btn-material">San Martin</button>
-                        <button class="btn col-4 btn-material">Urquiza</button>
-                        <button class="btn col-4 btn-material">Costa</button>
+                        <button id="boton-formaciones-diesel" class="btn col-6 btn-material">San Martin</button>
+                        <button id="boton-coches-remolcados" class="btn col-6 btn-material">Urquiza</button>
                     </div>
                 </div>
               </li>
@@ -263,16 +253,18 @@
     </nav>
     <!-- -------------------------------------version web------------------------------------------------- -->
     <main
-      class="d-none d-xxl-block d-xxxl-none"
+      class="d-none d-xxl-block d-md-block d-xxxl-none"
       id="contenido-principal-pc">
+      <div class="position-absolute top-50 start-50 translate-middle mt-4">
+        <div class="contenedor-web">
+          <img src="images/imagen carrucel 1.jpg" alt="">
+        </div>
+      </div>
       <footer id="footer-pc" class="bg-body-tertiary text-center bottom-0 w-100">
-        <!-- Grid container -->
         <div class="container p-4 pb-0">
           <h1 class="roboto-mono">Al futuro se viaja EN TREN</h1>
 
-          <!-- Section: Social media -->
           <section class="mb-4">
-            <!-- Facebook -->
             <a
               data-mdb-ripple-init
               class="btn text-white btn-floating m-1"
@@ -282,7 +274,6 @@
               ><i class="fab fa-facebook-f"></i
             ></a>
 
-            <!-- Twitter -->
             <a
               data-mdb-ripple-init
               class="btn text-white btn-floating m-1"
@@ -292,7 +283,6 @@
               ><i class="bi bi-twitter-x"></i
             ></a>
 
-            <!-- Google -->
             <a
               data-mdb-ripple-init
               class="btn text-white btn-floating m-1"
@@ -302,7 +292,6 @@
               ><i class="fab fa-google"></i
             ></a>
 
-            <!-- Instagram -->
             <a
               data-mdb-ripple-init
               class="btn text-white btn-floating m-1"
@@ -312,11 +301,8 @@
               ><i class="fab fa-instagram"></i
             ></a>
           </section>
-          <!-- Section: Social media -->
         </div>
-        <!-- Grid container -->
 
-        <!-- Copyright -->
         <div
           class="text-center p-3"
           style="background-color: rgba(0, 0, 0, 0.05)"
@@ -326,7 +312,6 @@
             >alfuturoseviajaentren.com.ar</a
           >
         </div>
-        <!-- Copyright -->
       </footer>
     </main>
 
