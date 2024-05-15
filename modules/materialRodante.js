@@ -86,9 +86,9 @@ export function botonesMaterialRodante() {
                               class="btn btn-primaryanimacion btn-lg"
                               type="button"
                               data-bs-toggle="collapse"
-                              data-bs-target="#collapseExample22"
+                              data-bs-target="#collapseExample33"
                               aria-expanded="false"
-                              aria-controls="collapseExample22"
+                              aria-controls="collapseExample33"
                             >
                             UTA CAF Serie 3700 
                             </button>
@@ -96,7 +96,7 @@ export function botonesMaterialRodante() {
                           <div>
                             <div>
                               <div class="text-start">
-                                <div class="collapse m-3" id="collapseExample22">
+                                <div class="collapse m-3" id="collapseExample33">
                                     <a>
                                         Flota: 9 dulpas de 2 coches cada una, para el Tren de la
                                         Costa.
@@ -158,9 +158,9 @@ export function botonesMaterialRodante() {
                               class="btn btn-primaryanimacion btn-lg"
                               type="button"
                               data-bs-toggle="collapse"
-                              data-bs-target="#collapseExample22"
+                              data-bs-target="#collapseExample44"
                               aria-expanded="false"
-                              aria-controls="collapseExample22"
+                              aria-controls="collapseExample44"
                             >
                             Emepa Alerce
                             </button>
@@ -168,7 +168,7 @@ export function botonesMaterialRodante() {
                           <div>
                             <div>
                               <div class="text-start">
-                                <div class="collapse m-3" id="collapseExample22">
+                                <div class="collapse m-3" id="collapseExample44">
                                   <a>
                                   Flota para servicio Regional de Salta: <br/><br/>En servicio: 5 formaciones 
                                     <br/>Fuera de servicio: 2 formaciones<br/><br/>Motivos: falta de repuestos para su mantenimiento
@@ -208,9 +208,9 @@ export function botonesMaterialRodante() {
                               class="btn btn-primaryanimacion btn-lg"
                               type="button"
                               data-bs-toggle="collapse"
-                              data-bs-target="#collapseExample22"
+                              data-bs-target="#collapseExample55"
                               aria-expanded="false"
-                              aria-controls="collapseExample22"
+                              aria-controls="collapseExample55"
                             >
                             Materfer 
                             </button>
@@ -218,7 +218,7 @@ export function botonesMaterialRodante() {
                           <div>
                             <div>
                               <div class="text-start">
-                                <div class="collapse m-3" id="collapseExample22">
+                                <div class="collapse m-3" id="collapseExample55">
                                     <a>
                                     Flota para los servicios regionales de Chaco:
                                     <br /><br/>
@@ -279,9 +279,9 @@ export function botonesMaterialRodante() {
                               class="btn btn-primaryanimacion btn-lg"
                               type="button"
                               data-bs-toggle="collapse"
-                              data-bs-target="#collapseExample22"
+                              data-bs-target="#collapseExample66"
                               aria-expanded="false"
-                              aria-controls="collapseExample22"
+                              aria-controls="collapseExample66"
                             >
                             General Motors EMD G22CW
                             </button>
@@ -289,7 +289,7 @@ export function botonesMaterialRodante() {
                           <div>
                             <div>
                               <div class="text-start">
-                                <div class="collapse m-3" id="collapseExample22">
+                                <div class="collapse m-3" id="collapseExample66">
                                   <a>
                                   En servicio: 2 unidades, solo para uso interno.<br/><br/>Fuera de servicio: 1 unidad.<br/><br/>
                                   Motivos: falta de presupuesto para su reparación general en talleres externos. Esta locomotora está en Materfer, provincia de Córdoba.<br/><br/>
@@ -326,9 +326,9 @@ export function botonesMaterialRodante() {
                               class="btn btn-primaryanimacion btn-lg"
                               type="button"
                               data-bs-toggle="collapse"
-                              data-bs-target="#collapseExample22"
+                              data-bs-target="#collapseExample77"
                               aria-expanded="false"
-                              aria-controls="collapseExample22"
+                              aria-controls="collapseExample77"
                             >
                             General Motors EMD G12CW
                             </button>
@@ -336,7 +336,7 @@ export function botonesMaterialRodante() {
                           <div>
                             <div>
                               <div class="text-start">
-                                <div class="collapse m-3" id="collapseExample22">
+                                <div class="collapse m-3" id="collapseExample77">
                                     <a>
                                         <br /><br/>En servicio: 5 unidades<br />Fuera de servicio: 2 unidades<br /><br/>
                                         Motivos: falta de presupuesto para su reparación general en talleres externos.
@@ -372,9 +372,9 @@ export function botonesMaterialRodante() {
                             class="btn btn-primaryanimacion btn-lg"
                             type="button"
                             data-bs-toggle="collapse"
-                            data-bs-target="#collapseExample22"
+                            data-bs-target="#collapseExample88"
                             aria-expanded="false"
-                            aria-controls="collapseExample22"
+                            aria-controls="collapseExample88"
                           >
                           ALCO DL535T
                         
@@ -383,7 +383,7 @@ export function botonesMaterialRodante() {
                         <div>
                           <div>
                             <div class="text-start">
-                              <div class="collapse m-3" id="collapseExample22">
+                              <div class="collapse m-3" id="collapseExample88">
                                   <a>En servicio: 2 unidades, solo para uso interno. <br />Fuera de servicio: 1
                                       formacione <br /><br/>Motivos: se encuentra en reparación en Taller Liniers por fallas
                                        luego de una reparación general.
@@ -418,9 +418,9 @@ export function botonesMaterialRodante() {
                           class="btn btn-primaryanimacion btn-lg"
                           type="button"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapseExample22"
+                          data-bs-target="#collapseExample99"
                           aria-expanded="false"
-                          aria-controls="collapseExample22"
+                          aria-controls="collapseExample99"
                         >
                         ALCO RSD-35 
                         </button>
@@ -428,7 +428,7 @@ export function botonesMaterialRodante() {
                       <div>
                         <div>
                           <div class="text-start">
-                            <div class="collapse m-3" id="collapseExample22">
+                            <div class="collapse m-3" id="collapseExample99">
                                 <a>
                                 En servicio: 0 unidades<br />Fuera de servicio: 1 unidad.
                                 <br /><br/>Motivo: falta de repuestos para su mantenimiento programado.
@@ -485,9 +485,9 @@ export function botonesMaterialRodante() {
                               class="btn btn-primaryanimacion btn-lg"
                               type="button"
                               data-bs-toggle="collapse"
-                              data-bs-target="#collapseExample22"
+                              data-bs-target="#collapseExample11"
                               aria-expanded="false"
-                              aria-controls="collapseExample22"
+                              aria-controls="collapseExample11"
                             >
                               CSR-Mitsubishi SMF23
                             </button>
@@ -495,7 +495,7 @@ export function botonesMaterialRodante() {
                           <div>
                             <div>
                               <div class="text-start">
-                                <div class="collapse m-3" id="collapseExample">
+                                <div class="collapse m-3" id="collapseExample11">
                                   <a>
                                     Flota: 30 formaciones de 6 coches cada una para los 3
                                     ramales de la Línea Mitre. <br/><br/>En servicio: 22 formaciones
@@ -536,9 +536,9 @@ export function botonesMaterialRodante() {
                               class="btn btn-primaryanimacion btn-lg"
                               type="button"
                               data-bs-toggle="collapse"
-                              data-bs-target="#collapseExample"
+                              data-bs-target="#collapseExample12"
                               aria-expanded="false"
-                              aria-controls="collapseExample"
+                              aria-controls="collapseExample12"
                             >
                             Coches Materfer Tipo 2056 
                             </button>
@@ -546,7 +546,7 @@ export function botonesMaterialRodante() {
                           <div>
                             <div>
                               <div class="text-start">
-                                <div class="collapse m-3" id="collapseExample">
+                                <div class="collapse m-3" id="collapseExample12">
                                     <a>
                                     Flota para los 2 ramales diésel de la Línea Mitre: 22 unidades
                                         <br /><br/>En servicio: 10 formaciones <br />Fuera de servicio: 12
