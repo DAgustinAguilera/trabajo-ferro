@@ -1,9 +1,12 @@
 export function boton_servicios() {
   const boton_servicio = document.getElementById("boton-estado-servicio");
-
+  
   boton_servicio.onclick = () => {
+
+  
     Swal.fire({
-      html: `    <div class="container">
+      html: `    
+      <div class="container">
       <div class="row row1">
         <div class="card col-12">
             <div class="roboto-mono">

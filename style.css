@@ -43,8 +43,52 @@ body, html {
 .titulofuturo{
     margin-top: 18%;
 }
+#tooltip {
+    background: #333;
+    color: white;
+    font-weight: bold;
+    padding: 4px 8px;
+    font-size: 13px;
+    border-radius: 4px;
+    display: none;
+  }
 
+  #tooltip[data-show] {
+    display: block;
+  }
 
+  #arrow,
+  #arrow::before {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: inherit;
+  }
+
+  #arrow {
+    visibility: hidden;
+  }
+
+  #arrow::before {
+    visibility: visible;
+    content: '';
+    transform: rotate(45deg);
+  }
+
+  #tooltip[data-popper-placement^='top'] > #arrow {
+    bottom: -4px;
+  }
+
+  #tooltip[data-popper-placement^='bottom'] > #arrow {
+    top: -4px;
+  }
+
+  #tooltip[data-popper-placement^='left'] > #arrow {
+    right: -4px;
+  }
+
+  #tooltip[data-popper-placement^='right'] > #arrow {
+    left: -4px;}
 .mt-10{
     margin-top: 33%;
     margin-left: 5%;
@@ -234,12 +278,7 @@ body, html {
 .nav-link:hover,.navbar-brand:hover,.nav-link:active,.navbar-brand:active{
     color: gray;
 }
-.contenedormaterialrodante{
-    height: 100%;
-    display: inline-table;
-    justify-content: space-between;
-    
-}
+
 .bg-green-mobile{
     background-color: rgba(51, 105, 51, 0.9);
     border-radius: 3%;
@@ -336,6 +375,15 @@ body, html {
     color: #fff !important;
     background-color:rgba(32, 168, 222, 0.945);
 }
+.contenedormaterialrodante{
+    color: rgb(255, 255, 255);
+}
+.contenedor-material{
+    top: 65%;
+    background-color: rgba(26, 121, 159, 0.753);
+    border-radius: 10px;
+    width: 95%;
+}
 .contenedor-web{
     width: 100%;
     height: 100%;
@@ -394,15 +442,12 @@ div:where(.swal2-container) .swal2-html-container {
     margin: 0 !important;
 }
 div:where(.swal2-container) button:where(.swal2-close) {
-    color: #000000 !important;
-    background-color: #ffffff !important;
+    color: #ffffff !important;
+    background-color: #006a9b !important;
     border-radius: 50% !important;
-    justify-content: center !important;
+    /* justify-content: center !important;
     margin-top: -3rem !important;
-    margin-right: 40% !important;
-    /* margin-top: 5% !important;
-    margin-right: 100% !important;
-    position: fixed !important; */
+    margin-right: 40% !important; */
 
 }
 .carousel-control-prev, .carousel-control-next {
