@@ -18,7 +18,7 @@ export function botonesMaterialRodante() {
                       </div>
                       <div class="d-flex justify-content-center">
                         <img
-                          class="mw-100 d-none d-xxl-flex d-xl-flex d-lg-flex d-md-flex"
+                          class="mw-100 d-none d-xxl-block d-xl-block d-lg-block d-md-block"
                           src="/images/imagen carrucel 1.jpg"
                           alt=""
                         />
@@ -67,7 +67,7 @@ export function botonesMaterialRodante() {
                     <div class="d-flex justify-content-center">
                         <h1>COCHES ELECTRICOS</h1>
                       </div>
-                      <div class="">
+                      <div class="d-flex justify-content-center">
                         <img
                           class="mw-100 d-none d-xxl-block d-xl-block d-lg-block d-md-block"
                           src="/images/imagen carrucel 2.jpg"
