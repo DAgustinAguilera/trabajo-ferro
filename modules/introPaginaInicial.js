@@ -40,7 +40,8 @@ intro.setOptions({
     ],
     nextLabel: 'Siguiente',
     prevLabel: 'Anterior',
-    doneLabel: 'Terminar' 
+    doneLabel: 'Terminar',
+    dontShowAgain: true,
     
   });
   intro.start();

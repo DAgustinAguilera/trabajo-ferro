@@ -35,7 +35,7 @@ export function iniciarMapaMitre() {
       iconSize: [45, 45],
     });
 
-    var imageUrl = "/images/planomitre.png";
+    var imageUrl = "/images/planomitre1.png";
     var imageBounds = [
       [0, 0],
       [1131, 1131],
@@ -172,7 +172,7 @@ export function iniciarMapaMitre() {
       [113, 843],
       [33, 923],
     ];
-    L.polyline(ret_cog, { color: "rgba(0, 128, 0, 0.600)", weight: 10 }).addTo(
+    L.polyline(ret_cog, { color: "rgba(200, 200, 0, 0.6)", weight: 10 }).addTo(
       map
     );
 
@@ -187,7 +187,7 @@ export function iniciarMapaMitre() {
       [250, 515],
     ];
     L.polyline(cog_mit, {
-      color: "rgba(200, 128, 0, 0.600)",
+      color: "rgba(200, 200, 0, 0.6)",
       weight: 10,
     }).addTo(map);
 
@@ -204,7 +204,7 @@ export function iniciarMapaMitre() {
       [439, 584],
     ];
     L.polyline(cog_mit, {
-      color: "rgba(200, 128, 0, 0.600)",
+      color: "rgba(200, 200, 0, 0.6)",
       weight: 10,
     }).addTo(map);
 
@@ -218,7 +218,7 @@ export function iniciarMapaMitre() {
       [217, 762],
     ];
     L.polyline(sanfer_emp, {
-      color: "rgba(200, 128, 0, 0.600)",
+      color: "rgba(200, 200, 0, 0.6)",
       weight: 10,
     }).addTo(map);
     var tigre_sanfer = [

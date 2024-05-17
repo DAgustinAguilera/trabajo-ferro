@@ -1,3 +1,13 @@
+:root {
+    --primary-color: rgba(255, 255, 255, 0.9);
+    --secondary-color: rgba(205, 205, 205, 0.945);
+    --resalt-color: rgba(78, 196, 255, 0.945);
+    --font-size-base: 16px;
+    --font-colof-primary: rgb(35, 35, 35);
+    --font-colof-secondary: rgb(237, 237, 237);
+    --padding-base: 10px;
+  }
+
 
 .bg-green{
     background-color: rgba(122, 255, 122, 0.121);
@@ -25,12 +35,13 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
-    background-color: rgb(195, 238, 255);
 }
 .btn-lg{
     font-size: 3ch;
 }
-
+.btn{
+    color: var(--font-colof-primary);
+}
 .inicio-container {
     height: 100%;
     width: 100%;
@@ -86,7 +97,7 @@ body, html {
     font-size: 3.5ch;
 }
 .navbarcolor{
-    background-color: rgba(26, 121, 159, 0.901)!important;
+    background-color: var(--primary-color) !important;
     box-shadow: 11px 11px 29px -11px rgba(0,0,0,0.75);
     color: rgb(11, 11, 11);;
 
@@ -226,11 +237,11 @@ body, html {
 }
 
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show, .navbar-brand,.navbar-toggler-icon,.nav-link {
-    color: rgb(255, 255, 255);
+    color: var(--font-colof-primary);
     font-size: 3.5ch;
 }
 .nav-link:visited,.navbar-brand:visited{
-    color: rgb(255, 255, 255);
+    color: var(--font-colof-primary);
     font-size: 3.5ch;
 }
 .nav-link:hover,.navbar-brand:hover,.nav-link:active,.navbar-brand:active{
@@ -238,17 +249,19 @@ body, html {
 }
 
 .bg-green-mobile{
-    background-color: rgba(51, 105, 51, 0.9);
-    border-radius: 3%;
+    color: rgb(45, 45, 45) !important;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1%;
     box-shadow: 11px 11px 29px -11px rgba(0,0,0,0.75);
+    padding: 5%;
 }
 .bg-red-mobile{
-    background-color: rgba(94, 29, 29, 0.9);
-    border-radius: 3%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1%;
     box-shadow: 11px 11px 29px -11px rgba(0,0,0,0.75);
 }
 .bg-ferro-mobile{
-    background-color: rgba(32, 168, 222, 0.900);
+    background-color: var(--secondary-color);
     box-shadow: 11px 11px 29px -11px rgba(0,0,0,0.75);
     border-radius: 3%;
 }
@@ -260,67 +273,67 @@ body, html {
     font-family: "Squada One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: white;
+    color: var(--font-colof-secondary);
     width: 8rem;
     height: 3rem;
 }
 .btn-firma{
-    background-color: rgba(0, 128, 98, 0.91);
-    border-color: rgba(0, 128, 0, 0);
+    background-color: var(--resalt-color);
+    border-color: var(--resalt-color);
     border-radius: 10px;
     box-shadow: 4px 10px 18px 6px rgba(0,0,0,0.77);
     font-family: "Squada One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: white;
+    color: var(--font-colof-primary);
     
 }
 .btn-firma1{
-    background-color: rgba(0, 128, 98, 0.91);
+    background-color: var(--resalt-color);
     height: 3rem;
     width: 15rem;
     border-radius: 5px;
-    border-color: green;
+    border-color: var(--resalt-color);
     font-family: "Squada One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: white;
+    color: var(--font-colof-primary);
     font-size: large;
     
 }
 .btn-firma1:active{
-    background-color: rgba(0, 62, 48, 0.91);
+    background-color: rgba(78, 196, 255, 0.945);
     border-radius: 5px;
-    border-color: green;
-    box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.75);    
+    border-color: rgba(37, 103, 137, 0.945);
+    box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.20);    
     font-family: "Squada One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: white;
+    color: var(--font-colof-primary);
     
 }
 .btn-firma:hover{
-    background-color: rgba(0, 62, 48, 0.91);
-    border-color: green;
+    background-color: rgba(17, 106, 151, 0.945);
+    border-color: rgba(17, 106, 151, 0.945);
     box-shadow: 4px 10px 18px 6px rgba(0,0,0,0.77);
     font-family: "Squada One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: white;
+    color: var(--font-colof-primary);
     
 }
 .btn-primary{
-    background-color: rgba(26, 121, 159, 0.9);
-    border-color: rgba(32, 168, 222, 0.945);
+    background-color: var(--primary-color);
+    border-color: var(--secondary-color);
     box-shadow: 4px 10px 18px 6px rgba(0,0,0,0.77);
     font-family: "Squada One", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 .btn-primaryanimacion{
-    color: white;
-    background-color: rgba(26, 121, 159, 0.9);
-    border-color: rgba(32, 168, 222, 0.945);
+    color: var(--font-colof-primary);
+    background-color: var(--primary-color);
+    border-color: var(--secondary-color);
     box-shadow: 4px 10px 18px 6px rgba(0,0,0,0.77);
     font-family: "Squada One", sans-serif;
     font-weight: 400;
@@ -330,7 +343,7 @@ body, html {
     animation: pulsar 0.5s infinite alternate, pulso 0.5s infinite alternate;
 }
 .btn-primaryanimacion:hover{
-    background-color: rgba(25, 102, 132, 0.9);
+    background-color: var(--secondary-color);
 
 }
 @media screen and (max-width: 568px) {
@@ -398,9 +411,9 @@ body, html {
     height: 1rem;
 }
 .btn-material *{
-    color: #fff !important;
+    color: var(--font-colof-primary) !important;
     font-size: 3ch !important;
-    background-color:rgba(32, 168, 222, 0.945);
+    background-color:var(--secondary-color);
     margin-top: 2px;
     scale: 0.9;
     text-align: center;
@@ -408,15 +421,15 @@ body, html {
     
 }   
 .btn-material:hover *{
-    color: #fff !important;
-    background-color:rgba(32, 168, 222, 0.945);
+    color: var(--font-colof-primary) !important;
+    background-color:var(--secondary-color);
 }
 .contenedormaterialrodante{
-    color: rgb(255, 255, 255);
+    color: var(--font-colof-primary);
 }
 .contenedor-material{
     top: 6%;
-    background-color: rgba(26, 121, 159, 0.753);
+    background-color: var(--primary-color);
     border-radius: 10px;
     width: 95%;
 }
@@ -441,10 +454,10 @@ body, html {
 }
 
 .titulo{
-    color: rgb(255, 255, 255);
+    color: var(--font-colof-primary);
 }
 .textcolor{
-    color: white;
+    color: var(--font-colof-primary);
     font-size: 2ch;
 
 }
@@ -456,12 +469,12 @@ body, html {
 }
 .bg-body-tertiary {
     --mdb-bg-opacity: 1;
-    color: white;
-    background-color: rgba(26, 121, 159, 0.9)!important;
+    color: var(--font-colof-primary);
+    background-color: var(--primary-color)!important;
 }
 .text-body {
     --mdb-text-opacity: 1;
-    color: white!important;
+    color: var(--font-colof-primary)!important;
 }
 
 #map {
@@ -476,9 +489,11 @@ div:where(.swal2-container) .swal2-html-container {
     margin: 0 !important;
 }
 div:where(.swal2-container) button:where(.swal2-close) {
-    color: #ffffff !important;
-    background-color: #006a9b !important;
-    border-radius: 50% !important;
+    color: #252525 !important;
+    /* background-color: #006a9bdc !important;
+    border-radius: 50% !important; */
+    bottom: 2;
+    /* content: url('images/caution.png'); */
     /* justify-content: center !important;
     margin-top: -3rem !important;
     margin-right: 40% !important; */
@@ -502,9 +517,9 @@ div:where(.swal2-container) button:where(.swal2-close) {
 }
 .carousel-control-prev, .carousel-control-next {
     font-size: 6ch !important;
-    color: white;
+    color: var(--font-colof-primary);
     opacity: 100 !important;
 }
 #iconotools{
-    color: white;
+    color: var(--font-colof-primary);
 }
