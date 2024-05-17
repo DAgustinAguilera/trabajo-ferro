@@ -9,7 +9,9 @@ import { iniciarMapaSalta } from './modules/mapaTrenSalta.js';
 import { boton_servicios } from './modules/estadoDeServicio.js';
 import { botonesMaterialRodante } from './modules/materialRodante.js';
 import { botonesAlertsInfo } from './modules/botonesAlertInformacion.js';
+import { boton_clarooscuro } from './modules/clarooscuro.js';
 
+boton_clarooscuro();
 iniciarMapaMitre();
 iniciarMapaChaco();
 iniciarMapaAmores();

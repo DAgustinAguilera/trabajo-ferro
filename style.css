@@ -3,12 +3,41 @@
     --secondary-color: rgba(205, 205, 205, 0.945);
     --resalt-color: rgba(78, 196, 255, 0.945);
     --font-size-base: 16px;
-    --font-colof-primary: rgb(35, 35, 35);
+    --font-colof-primary: rgb(47, 47, 47);
     --font-colof-secondary: rgb(237, 237, 237);
     --padding-base: 10px;
   }
+.modo-alternativo{
+    --primary-color: rgba(31, 31, 31, 0.9);
+    --secondary-color: rgba(90, 90, 90, 0.945);
+    --resalt-color: rgba(18, 56, 75, 0.945);
+    --font-size-base: 16px;
+    --font-colof-primary: rgb(227, 227, 227);
+    --font-colof-secondary: rgb(9, 9, 9);
+    --padding-base: 10px;
+}
+.bi-brightness-high, .bi-moon{
+    color: var(--font-colof-primary);
+}
+.btn-close{
+    background-color: var(--secondary-color) !important;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
 
+a:visited {
+    color: inherit;
+}
 
+a:hover {
+    color: inherit;
+}
+
+a:active {
+    color: inherit;
+}
 .bg-green{
     background-color: rgba(122, 255, 122, 0.121);
     transition: 0.3s;
@@ -292,6 +321,8 @@ body, html {
     background-color: var(--resalt-color);
     height: 3rem;
     width: 15rem;
+    border-style: none;
+
     border-radius: 5px;
     border-color: var(--resalt-color);
     font-family: "Squada One", sans-serif;
@@ -302,9 +333,10 @@ body, html {
     
 }
 .btn-firma1:active{
-    background-color: rgba(78, 196, 255, 0.945);
+    background-color: var(--resalt-color);
     border-radius: 5px;
-    border-color: rgba(37, 103, 137, 0.945);
+    border-style: none;
+    border-color: var(--resalt-color) !important;
     box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.20);    
     font-family: "Squada One", sans-serif;
     font-weight: 400;
@@ -313,8 +345,8 @@ body, html {
     
 }
 .btn-firma:hover{
-    background-color: rgba(17, 106, 151, 0.945);
-    border-color: rgba(17, 106, 151, 0.945);
+    background-color: var(--resalt-color);
+    border-color: var(--resalt-color);
     box-shadow: 4px 10px 18px 6px rgba(0,0,0,0.77);
     font-family: "Squada One", sans-serif;
     font-weight: 400;
@@ -483,13 +515,18 @@ body, html {
     background-color: rgb(255, 255, 255);
 }
 div:where(.swal2-container) div:where(.swal2-popup) {
-    max-width: 100% !important
+    color: var(--font-colof-primary);
+    font-family: "Squada One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    max-width: 100% !important;
+    background-color: var(--primary-color) !important;
 }
 div:where(.swal2-container) .swal2-html-container {
     margin: 0 !important;
 }
 div:where(.swal2-container) button:where(.swal2-close) {
-    color: #252525 !important;
+    color: var(--font-colof-primary) !important;
     /* background-color: #006a9bdc !important;
     border-radius: 50% !important; */
     bottom: 2;
@@ -498,6 +535,19 @@ div:where(.swal2-container) button:where(.swal2-close) {
     margin-top: -3rem !important;
     margin-right: 40% !important; */
 
+}
+.ajs-dialog, .ajs-header, .ajs-footer,.ajs-body  {
+    background-color: var(--primary-color) !important;
+    color: var(--font-colof-primary) !important;
+
+}
+.bi-arrow-right-square-fill::before {
+    content: "\f136";
+    color: #bfbfbf;
+}
+.bi-arrow-left-square-fill::before {
+    content: "\f12d";
+    color: #bfbfbf;
 }
 .carousel-control-prev, .carousel-control-next {
     color: black;

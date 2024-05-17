@@ -165,23 +165,23 @@ export function boton_servicios() {
     };
     boton_ret_sua.onclick = () => {
       alertify.alert(
-        "Retiro - J.L Suarez",
+        "Retiro - J.L Suárez",
         "El servicio se ofrece de manera irregular, con demoras y cancelaciones, debido a la falta de formaciones suficientes para lograr una frecuencia adecuada.<br/>También, por infraestructura de vía y señalamiento en mal estado, hay reducciones de velocidad que aumentan considerablemente el tiempo de viaje.").set("closable", false).set();
     };
     boton_ret_mit.onclick = () => {
       alertify.alert(
-        "Retiro - Bme. Mitre", 
+        "Retiro - Bmé. Mitre", 
         "El servicio se ofrece de manera irregular, con demoras y cancelaciones, debido a la falta de formaciones suficientes para lograr una frecuencia adecuada.<br/>También, por infraestructura de vía y señalamiento en mal estado, hay reducciones de velocidad que aumentan considerablemente el tiempo de viaje.").set("closable", false).set();
     };
     boton_ball_zar.onclick = () => {
       alertify.alert(
         "Villa Ballester - Zarate", 
-        "El servicio se ofrece de manera muy irregular debido a la escasez de coches de pasajeros y la poca cantidad de locomotoras disponibles para aumentar la cantidad de trenes.<br/>La falta de coches, también se traduce en formaciones con solo 2 coches disponibles, y sin furgón para bicicletas.<br/>La infraestructura de vía es buena, pero carece de un sistema de señalización adecuado para agilizar la circulación, sumado a restricciones de velocidad por mal estado de cambios y pasos a nivel sin barreras.").set("closable", false).set();
+        "El servicio se ofrece de manera muy irregular debido a la escasez de coches de pasajeros y la poca cantidad de locomotoras disponibles para aumentar la cantidad de trenes.<br/>La falta de unidades, también se traduce en formaciones con solo 2 vehículos disponibles, y sin furgón para bicicletas.<br/>La infraestructura de vía es buena, pero carece de un sistema de señalización adecuado para agilizar la circulación, sumado a restricciones de velocidad por mal estado de cambios y pasos a nivel sin barreras.").set("closable", false).set();
     };
     boton_vic_cap.onclick = () => {
       alertify.alert(
         "Victoria - Capilla del Señor", 
-        "El servicio se ofrece de manera muy irregular debido a la escasez de coches de pasajeros y la poca cantidad de locomotoras disponibles para aumentar la cantidad de trenes.<br/>La falta de coches, también se traduce en formaciones con solo 2 coches disponibles, y sin furgón para bicicletas.<br/>La infraestructura de vía es buena en un 70% del ramal. Carece de un sistema de señalización adecuado para agilizar la circulación, sumado a restricciones de velocidad por sectores de vía sin renovar, pasos a nivel sin barreras, mal estado de cambios y puentes en general.").set("closable", false).set();
+        "El servicio se ofrece de manera muy irregular debido a la escasez de coches de pasajeros y la poca cantidad de locomotoras disponibles para aumentar la cantidad de trenes.<br/>La falta de unidades, también se traduce en formaciones con solo 2 vehículos disponibles, y sin furgón para bicicletas.<br/>La infraestructura de vía es buena en un 70% del ramal. Carece de un sistema de señalización adecuado para agilizar la circulación, sumado a restricciones de velocidad por sectores de vía sin renovar, pasos a nivel sin barreras, mal estado de cambios y puentes en general.").set("closable", false).set();
     };
     boton_mai_del.onclick = () => {
       alertify.alert(
