@@ -947,29 +947,4 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script type="module" src="script.js"></script>
   </body>
-  <script>
-document.addEventListener('DOMContentLoaded', function() {
-  var navbarToggler = document.getElementById('paso4');
-  var offcanvasNavbar = new bootstrap.Offcanvas(document.getElementById('offcanvasNavbar'));
-
-
-  // Detectar la tecla "Esc" presionada en el teclado
-  document.addEventListener('keydown', function(event) {
-    if (event.key === 'Escape' && offcanvasNavbar._isShown) {
-      offcanvasNavbar.toggle();
-    }
-  });
-
-  // Detectar el toque en cualquier parte de la página mientras el menú está abierto
-  document.addEventListener('touchstart', function(event) {
-    var targetElement = event.target;
-    var isMenuOpen = offcanvasNavbar._isShown;
-
-    if (isMenuOpen && targetElement.closest('#offcanvasNavbar') === null) {
-      offcanvasNavbar.toggle();
-    }
-  });
-});
-
-    </script>
 </html>
