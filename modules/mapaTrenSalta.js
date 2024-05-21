@@ -53,7 +53,7 @@ botonTrenesRegionales3.onclick = ()=>{
   var camp_gue_mark = L.marker([650, 340], { icon: myIcon2 })
     .addTo(map)
     .bindPopup(
-      '<b class="roboto-mono d-flex justify-content-center">Guemes - Campo Quijano</b><br><b class="roboto-mono"> Velocidad máxima de vía: 40km/h. Infraestructura sin renovación.<br> Precauciones a 20km/h. debido a falta de cerramiento de perímetro.</b>'
+      '<b class="sansserif d-flex justify-content-center">Guemes - Campo Quijano</b><br><b class="sansserif"> Velocidad máxima de vía: 40km/h. Infraestructura sin renovación.<br> Precauciones a 20km/h. debido a falta de cerramiento de perímetro.</b>'
     );
 
     var camp_gue = [

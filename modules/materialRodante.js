@@ -92,8 +92,8 @@ export function botonesMaterialRodante() {
                         <a>
                             Flota: 9 dulpas de 2 coches cada una, para el Tren de la
                             Costa.
-                            <br /><br/>En servicio: 4 formaciones <br />Fuera de servicio: 5
-                            formacione <br /><br/>Motivos: falta de repuestos para su
+                            <br /><br/>En servicio: 4 formaciones. <br />Fuera de servicio: 5
+                            formaciones. <br /><br/>Motivos: falta de repuestos para su
                             mantenimiento y puesta en valor.<br />Hay unidades
                             desmanteladas por robos en la zona del taller.
                           </a>
@@ -376,7 +376,7 @@ export function botonesMaterialRodante() {
                       <div class="text-start">
                         <div class="collapse m-3" id="collapseExample77">
                           <a>Flota total: 4 locomotoras.<br /><br/>En servicio: 2 unidades, solo para uso interno. <br />Fuera de servicio: 2
-                            formaciones.<br /><br/Motivos: una se encuentra en reparación en Taller Liniers por fallas luego de una reparación general en Materfer.
+                            unidades.<br /><br/Motivos: una se encuentra en reparación en Taller Liniers por fallas luego de una reparación general en Materfer.
                             <br/>La otra está en el Taller de Benito Roggio aguardando se finalicen las tareas de reparación.
                           </a>
                         </div>

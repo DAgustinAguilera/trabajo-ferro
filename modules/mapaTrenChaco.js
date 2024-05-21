@@ -53,7 +53,7 @@ botonTrenesRegionales2.onclick = ()=>{
   var saenz_choro_mark = L.marker([700, 550], { icon: myIcon })
     .addTo(map)
     .bindPopup(
-      '<b class="roboto-mono d-flex justify-content-center">Saez Peña - Chorotis</b><br><b class="roboto-mono">Velocidad máxima de vía: 30/40 km/h.Infraestructura sin renovación.<br>Precauiones a 20km/h. debido a sectores con durmientes en mal estado.</b>'
+      '<b class="sansserif d-flex justify-content-center">Saez Peña - Chorotis</b><br><b class="sansserif">Velocidad máxima de vía: 30/40 km/h.Infraestructura sin renovación.<br>Precauiones a 20km/h. debido a sectores con durmientes en mal estado.</b>'
     );
 
     var saenz_choro = [

@@ -34,6 +34,53 @@ export function iniciarMapaMitre() {
       html: '<div class="iconoalert"><img src="/images/cautionAr.png" class="marker-icon"></div>',
       iconSize: [45, 45],
     });
+    
+
+    var infoIz = L.divIcon({
+      className: "marker-container",
+      html: '<div class="iconoalert"><img src="/images/infoIz.png" class="marker-icon"></div>',
+      iconSize: [45, 45],
+    });
+    var infoDe = L.divIcon({
+      className: "marker-container",
+      html: '<div class="iconoalert"><img src="/images/infoDe.png" class="marker-icon"></div>',
+      iconSize: [45, 45],
+    });
+    var infoAb = L.divIcon({
+      className: "marker-container",
+      html: '<div class="iconoalert"><img src="/images/infoAb.png" class="marker-icon"></div>',
+      iconSize: [45, 45],
+    });
+    var infoAr = L.divIcon({
+      className: "marker-container",
+      html: '<div class="iconoalert"><img src="/images/infoAr.png" class="marker-icon"></div>',
+      iconSize: [45, 45],
+    });
+
+
+
+    var alertIz = L.divIcon({
+      className: "marker-container",
+      html: '<div class="iconoalert"><img src="/images/alertIz.png" class="marker-icon"></div>',
+      iconSize: [45, 45],
+    });
+    var alertDe = L.divIcon({
+      className: "marker-container",
+      html: '<div class="iconoalert"><img src="/images/alertDe.png" class="marker-icon"></div>',
+      iconSize: [45, 45],
+    });
+    var alertAb = L.divIcon({
+      className: "marker-container",
+      html: '<div class="iconoalert"><img src="/images/alertAb.png" class="marker-icon"></div>',
+      iconSize: [45, 45],
+    });
+    var alertAr = L.divIcon({
+      className: "marker-container",
+      html: '<div class="iconoalert"><img src="/images/alertAr.png" class="marker-icon"></div>',
+      iconSize: [45, 45],
+    });
+
+
 
     var imageUrl = "/images/planomitre1.png";
     var imageBounds = [
@@ -48,22 +95,22 @@ export function iniciarMapaMitre() {
 
     // ------------------------------------------- Sector ep capilla del señor victoria --------------------------------------------
 
-    var car_cap_mark = L.marker([1040, 340], { icon: myIcon })
+    var car_cap_mark = L.marker([1040, 340], { icon: alertIz })
       .addTo(map)
       .bindPopup(
-        '<b class="roboto-mono d-flex justify-content-center">Los Cardales - Capilla del señor</b><br><b class="roboto-mono">Velocidad máxima: 30km/h.</br>Motivo: infraestructura sin renovar, pasos a nivel sin barrera y mal estado de puentes</b>'
+        '<b class="sansserif d-flex justify-content-center">Los Cardales - Capilla del señor</b><br><b class="sansserif">Velocidad máxima: 30km/h.</br>Motivo: infraestructura sin renovar, pasos a nivel sin barrera y mal estado de puentes</b>'
       );
 
-    var cap_car_mark = L.marker([900, 340], { icon: myIcon })
+    var tal_car_mark = L.marker([900, 340], { icon: infoIz })
       .addTo(map)
       .bindPopup(
-        '<b class="roboto-mono d-flex justify-content-center">El talar - Los Cardales</b><br><b class="roboto-mono">Velocidad máxima: 80km/h.</br>Precauciones: 12-40km/h por pasos a nivel sin barrera, puentes sin renovar, mal estado de cambios de via y falta de cerramiento perimetral</b>'
+        '<b class="sansserif d-flex justify-content-center">El talar - Los Cardales</b><br><b class="sansserif">Velocidad máxima: 80km/h.</br>Precauciones: 12-40km/h por pasos a nivel sin barrera, puentes sin renovar, mal estado de cambios de via y falta de cerramiento perimetral</b>'
       );
 
     var vic_tal_mark = L.marker([745, 630], { icon: myIcon3 })
       .addTo(map)
       .bindPopup(
-        '<b class="roboto-mono d-flex justify-content-center">Victoria - El Talar</b><br><b class="roboto-mono">velocidad máxima 30kmh/h</br>Motivo: Via sin renovar.</br>Precauciones: a 12 km/h por mal estado de puentes en general</b>'
+        '<b class="sansserif d-flex justify-content-center">Victoria - El Talar</b><br><b class="sansserif">velocidad máxima 30kmh/h</br>Motivo: Via sin renovar.</br>Precauciones: a 12 km/h por mal estado de puentes en general</b>'
       );
 
     // ------------------------------------------- Sector ep capilla del señor victoria --------------------------------------------
@@ -98,10 +145,10 @@ export function iniciarMapaMitre() {
 
     // ------------------------------------------- Sector ep Zarate - Suarez --------------------------------------------
 
-    var suar_zar_mark = L.marker([965, 420], { icon: myIcon2 })
+    var suar_zar_mark = L.marker([965, 420], { icon: infoDe })
       .addTo(map)
       .bindPopup(
-        '<b class="roboto-mono d-flex justify-content-center">Suarez - Zarate</b><br><b class="roboto-mono">Velocidad maxima: 120kmh. Via renovada en 2014/h</br>Precauciones: entre 12 y 40km/h por mal estado de cambios, pasos a nivel sin barrera y faltante de durmientes/b>'
+        '<b class="sansserif d-flex justify-content-center">Suarez - Zarate</b><br><b class="sansserif">Velocidad maxima: 120kmh. Via renovada en 2014/h</br>Precauciones: entre 12 y 40km/h por mal estado de cambios, pasos a nivel sin barrera y faltante de durmientes/b>'
       );
 
     var car_cap = [
@@ -145,16 +192,16 @@ export function iniciarMapaMitre() {
       map
     );
 
-    var sua_ret_mark = L.marker([390, 340], { icon: myIcon })
+    var sua_ret_mark = L.marker([390, 340], { icon: infoIz })
       .addTo(map)
       .bindPopup(
-        '<b class="roboto-mono d-flex justify-content-center">Suarez - Emp. Maldonado</b><br><b class="roboto-mono">Velocidad maxima: 60/80km/h.</br>Precauciones: entre 5 y 30km/h por ingresos a terminal, pasos a nivel, puentes en general y mal estado de cambios</b>'
+        '<b class="sansserif d-flex justify-content-center">Suarez - Emp. Maldonado</b><br><b class="sansserif">Velocidad maxima: 60/80km/h.</br>Precauciones: entre 5 y 30km/h por ingresos a terminal, pasos a nivel, puentes en general y mal estado de cambios</b>'
       );
 
-    var ret_mal_mark = L.marker([40, 845], { icon: myIcon2 })
+    var ret_mal_mark = L.marker([40, 845], { icon: infoDe })
       .addTo(map)
       .bindPopup(
-        '<b class="roboto-mono d-flex justify-content-center">Retiro - Emp. Maldonado</b><br><b class="roboto-mono">Velocidad máxima: 70kmh/h. Vía renovada 2005</b>'
+        '<b class="sansserif d-flex justify-content-center">Retiro - Emp. Maldonado</b><br><b class="sansserif">Velocidad máxima: 70kmh/h. Vía renovada 2005</b>'
       );
     // ------------------------------------------- Sector bp Retiro - Suarez --------------------------------------------
 
@@ -244,25 +291,25 @@ export function iniciarMapaMitre() {
       map
     );
 
-    var nun_emp = L.marker([180, 760], { icon: myIcon2 })
+    var nun_emp = L.marker([180, 760], { icon: infoDe })
       .addTo(map)
       .bindPopup(
-        '<b class="roboto-mono d-flex justify-content-center">Nuñez - Emp. Maldonado</b><br><b class="roboto-mono">Velocidad máxima: 60kmh/h</br>Motivo: Mal estado de tercer riel</b>'
+        '<b class="sansserif d-flex justify-content-center">Nuñez - Emp. Maldonado</b><br><b class="sansserif">Velocidad máxima: 60kmh/h</br>Motivo: Mal estado de tercer riel</b>'
       );
-    var ret_emp = L.marker([100, 960], { icon: myIcon })
+    var ret_emp = L.marker([100, 960], { icon: infoIz })
       .addTo(map)
       .bindPopup(
-        '<b class="roboto-mono d-flex justify-content-center">Retiro - Emp. Maldonado</b><br><b class="roboto-mono">Velocidad máxima: 80km/h. Vía renovada en 2005</b>'
+        '<b class="sansserif d-flex justify-content-center">Retiro - Emp. Maldonado</b><br><b class="sansserif">Velocidad máxima: 80km/h. Vía renovada en 2005</b>'
       );
       var sanfer_nuñez = L.marker([550, 660], { icon: myIcon2 })
       .addTo(map)
       .bindPopup(
-        '<b class="roboto-mono d-flex justify-content-center">San Fernando - Nuñez</b><br><b class="roboto-mono">Velocidad máxima: 30/40 km/h</br>Motivo: por mal estado de la infraestructura de vía</br>Precauciones: a 12 km/h por mal estado de los cambios</b>'
+        '<b class="sansserif d-flex justify-content-center">San Fernando - Nuñez</b><br><b class="sansserif">Velocidad máxima: 30/40 km/h</br>Motivo: por mal estado de la infraestructura de vía</br>Precauciones: a 12 km/h por mal estado de los cambios</b>'
       );
-      var sanfer_tigre = L.marker([880, 660], { icon: myIcon2 })
+      var sanfer_tigre = L.marker([880, 660], { icon: infoDe })
       .addTo(map)
       .bindPopup(
-        '<b class="roboto-mono d-flex justify-content-center">Tigre - San Fernando</b><br><b class="roboto-mono">Velocidad máxima: 60 km/h. Última renovación de vía 1985</b>'
+        '<b class="sansserif d-flex justify-content-center">Tigre - San Fernando</b><br><b class="sansserif">Velocidad máxima: 60 km/h. Última renovación de vía 1985</b>'
       );
     // ------------------------------------------- AP - Retiro - Tigre --------------------------------------------
   };
