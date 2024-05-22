@@ -5,17 +5,12 @@ export function botonhistoria() {
     botonhistoria.onclick = ()=>{
         
       Swal.fire({
-        html: `<div id="my-pdf" style="height: 600px;"></div>`,
+        html: `<iframe src="./ViewerJS/#../pdf.pdf" width="100%" height="650" allowfullscreen webkitallowfullscreen></iframe>`,
         background: `rgba(32, 168, 222, 0.0)`,
-        width: "650px",
+        width: "35rem",
         showCloseButton: true,
         showConfirmButton: false,
       });
-      var options = {
-        height: "600px",
-        fallbackLink: "<p>Este navegador no soporta PDFs en línea. Por favor <a href='[pdf]'>descarga el PDF</a> para verlo.</p>"
-      };
-      PDFObject.embed("./pdf.pdf", "#my-pdf", options);
         }  
     }
     

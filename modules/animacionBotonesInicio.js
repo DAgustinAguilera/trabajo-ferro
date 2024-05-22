@@ -12,7 +12,6 @@ document.addEventListener('DOMContentLoaded', function () {
         // Cambiamos la clase del botón
         btnInicio.classList.remove('animate__lightSpeedInLeft');
         btnInicio.classList.add('animate__pulse', 'animate__infinite','animate__fast');
-        titulo.classList.remove('animate__fadeInRight');
       }
     });
   });
