@@ -105,6 +105,8 @@ body, html {
     cursor: pointer;
     opacity: 0.8;
 }
+.pdfobject-container { 
+    height: 500px; border: 1px solid #ccc; }
 @media screen and (min-width: 1000px) {
     #btn-inicio {
       width: 25% !important;
