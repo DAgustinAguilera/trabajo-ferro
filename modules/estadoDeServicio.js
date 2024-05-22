@@ -21,7 +21,7 @@ export function boton_servicios() {
       <div class="row row1">
           <div class="card col-12">
               <div class="roboto-mono d-flex justify-content-around align-items-center">
-                <p>Retiro - J.L. Suarez</p>
+                <p>Retiro - J.L. Suárez</p>
                 <div class="">
                 <button id="ret_sua" class="btn-semaforo">
                   <p class="ms-2 mt-3">IRREGULAR</p>
@@ -34,7 +34,7 @@ export function boton_servicios() {
         <div class="row row1">
           <div class="card col-12">
               <div class="roboto-mono d-flex justify-content-around align-items-center">
-                <p>Retiro - Bme. Mitre</p>
+                <p>Retiro - Bmé. Mitre</p>
                 <div class="">
                 <button id="ret_mit" class="btn-semaforo">
                   <p class="ms-2 mt-3">IRREGULAR</p>
@@ -181,7 +181,7 @@ export function boton_servicios() {
     boton_vic_cap.onclick = () => {
       alertify.alert(
         "Victoria - Capilla del Señor", 
-        "El servicio se ofrece de manera muy irregular debido a la escasez de coches de pasajeros y la poca cantidad de locomotoras disponibles para aumentar la cantidad de trenes.<br/>La falta de unidades, también se traduce en formaciones con solo 2 vehículos disponibles, y sin furgón para bicicletas.<br/>La infraestructura de vía es buena en un 70% del ramal. Carece de un sistema de señalización adecuado para agilizar la circulación, sumado a restricciones de velocidad por sectores de vía sin renovar, pasos a nivel sin barreras, mal estado de cambios y puentes en general.").set("closable", false).set();
+        "El servicio se ofrece de manera muy irregular debido a la escasez de coches de pasajeros y la poca cantidad de locomotoras disponibles para aumentar la cantidad de trenes.<br/>La falta de unidades, también se traduce en formaciones con solo 2 vehículos disponibles, y sin furgón para bicicletas.<br/>La infraestructura de vía es buena en un 70% del ramal. Carece de un sistema de señalización adecuado para agilizar la circulación, sumado a restricciones de velocidad por sectores de vía sin renovar, pasos a nivel sin barreras, falta de mantenimiento en cambios y puentes en general.").set("closable", false).set();
     };
     boton_mai_del.onclick = () => {
       alertify.alert(

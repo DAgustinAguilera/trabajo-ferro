@@ -10,7 +10,7 @@ export function botonesMaterialRodante() {
 
         Swal.fire({
             html: `<div class="d-flex justify-content-center">
-            <h1>COCHES ELECTRICOS</h1>
+            <h1>COCHES ELÉCTRICOS</h1>
         </div>
         <div id="carouselExampleFade" class="carousel slide">
           <div class="carousel-inner">
@@ -170,11 +170,11 @@ export function botonesMaterialRodante() {
                     <div class="text-start">
                       <div class="collapse m-3" id="collapseExample33">
                         <a class="informacionmaterial">
-                          Flota para servicio Regional de Salta: 7 duplas en total.<br/><br/>En servicio: 5 formaciones 
-                            <br/>Fuera de servicio: 2 formaciones<br/><br/> Motivos: falta de repuestos para su mantenimiento
+                          Flota para servicio Regional de Salta: 7 duplas en total.<br/><br/>En servicio: 4 formaciones .
+                            <br/>Fuera de servicio: 3 formaciones.<br/><br/> Motivos: falta de repuestos para su mantenimiento
                              y puesta en funcionamiento, mejorando la oferta de servicios.<br/><br/><br/>
-                             Flota para los servicios Metropolitanos y Regionales de Córdoba: 10 duplas en total<br/><br/>En servicio: 5 formaciones 
-                            <br/>Fuera de servicio: 5 formaciones<br/><br/>Motivos: falta de repuestos para su mantenimiento
+                             Flota para los servicios Metropolitanos y Regionales de Córdoba: 10 duplas en total<br/><br/>En servicio: 7 formaciones.
+                            <br/>Fuera de servicio: 3 formaciones.<br/><br/>Motivos: falta de repuestos para su mantenimiento
                              y puesta en funcionamiento, mejorando la oferta de servicios.
                           </a>
                       </div>
