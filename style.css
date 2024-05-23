@@ -126,6 +126,10 @@ body, html {
     opacity: 1;
 
 }
+.icono{
+background-color: #092d0000;
+width: 80%;
+}
 .btn-map-tr{
     z-index: 60000;
     bottom: 4%;

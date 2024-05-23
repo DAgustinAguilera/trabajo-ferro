@@ -1,14 +1,18 @@
+{/* <button id="btn-map-tr" class="position-absolute btn-map-tr btn">dedede</button>
+<button id="btn-map-zr" class="position-absolute btn-map-zr btn">dedede</button>
+<button id="btn-map-vc" class="position-absolute btn-map-vc btn">dedede</button>
+<button id="btn-map-mr" class="position-absolute btn-map-mr btn">dedede</button>
+<button id="btn-map-cos" class="position-absolute btn-map-cos btn">dedede</button> */}
+
+
+
 export function iniciarMapaMitre() {
   const botonTrenesRegionales = document.getElementById("boton-t-r");
 
   botonTrenesRegionales.onclick = () => {
     Swal.fire({
       html: `<div class="justify-content-center" id="map"></div>
-            <button id="btn-map-tr" class="position-absolute btn-map-tr btn">dedede</button>
-            <button id="btn-map-zr" class="position-absolute btn-map-zr btn">dedede</button>
-            <button id="btn-map-vc" class="position-absolute btn-map-vc btn">dedede</button>
-            <button id="btn-map-mr" class="position-absolute btn-map-mr btn">dedede</button>
-            <button id="btn-map-cos" class="position-absolute btn-map-cos btn">dedede</button>`,
+`,
       background: `rgba(32, 168, 222, 0.0)`,
       width: "35em",
       showCloseButton: true,
@@ -20,16 +24,16 @@ export function iniciarMapaMitre() {
       crs: L.CRS.Simple,
       minZoom: -1.5,
     });
-      const botonTigreRetiro = document.getElementById("btn-map-tr");
+      // const botonTigreRetiro = document.getElementById("btn-map-tr");
 
-      botonTigreRetiro.onclick = () => {
-        Swal.fire({
-          html: `<div class="justify-content-center" id="">holissss</div>`,
-          background: `rgba(32, 168, 222, 0.0)`,
-          width: "35em",
-          showCloseButton: true,
-          showConfirmButton: false,
-        });}
+      // botonTigreRetiro.onclick = () => {
+      //   Swal.fire({
+      //     html: `<div class="justify-content-center" id="">holissss</div>`,
+      //     background: `rgba(32, 168, 222, 0.0)`,
+      //     width: "35em",
+      //     showCloseButton: true,
+      //     showConfirmButton: false,
+      //   });}
     var myIcon = L.divIcon({
       className: "marker-container",
       html: '<div class="iconoalert"><img src="/images/cautionIz.png" class="marker-icon"></div>',
