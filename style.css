@@ -111,12 +111,46 @@ body, html {
     #btn-inicio {
       width: 25% !important;
     }
+    .inicio-container {
+        height: 100%;
+        width: 100%;
+        background-image: url("/images/materialmaterfer.jpg");
+        background-size:contain;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: 1;
+    }
   }
 #btn-inicio:hover{
     opacity: 1;
 
 }
-
+.btn-map-tr{
+    z-index: 60000;
+    bottom: 4%;
+    left: 8%;
+}
+.btn-map-zr{
+    z-index: 60000;
+    bottom: 10%;
+    left: 8%;
+}
+.btn-map-vc{
+    z-index: 60000;
+    bottom: 16%;
+    left: 8%;
+}
+.btn-map-mr{
+    z-index: 60000;
+    bottom: 22%;
+    left: 8%;
+}
+.btn-map-cos{
+    z-index: 60000;
+    bottom: 28%;
+    left: 8%;
+}
 .contenido-principal {
     top: 0;
     left: 0;

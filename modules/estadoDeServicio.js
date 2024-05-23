@@ -158,7 +158,7 @@ export function boton_servicios() {
       alertify
         .alert(
           "Retiro - Tigre",
-          "El servicio se ofrece de manera irregular, con demoras y cancelaciones, debido a la falta de formaciones suficientes para lograr una frecuencia adecuada.<br/>También, por infraestructura de vía y señalamiento en mal estado, hay reducciones de velocidad que aumentan considerablemente el tiempo de viaje."
+          '<br/>El servicio se ofrece de manera irregular, con demoras y cancelaciones, debido a la falta de formaciones suficientes para lograr una frecuencia adecuada.<br/>También, por infraestructura de vía y señalamiento en mal estado, hay reducciones de velocidad que aumentan considerablemente el tiempo de viaje.'
         )
         .set("closable", false)
         .set();

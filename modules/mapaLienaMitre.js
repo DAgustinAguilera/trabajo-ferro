@@ -3,17 +3,33 @@ export function iniciarMapaMitre() {
 
   botonTrenesRegionales.onclick = () => {
     Swal.fire({
-      html: `<div id="map"></div>`,
+      html: `<div class="justify-content-center" id="map"></div>
+            <button id="btn-map-tr" class="position-absolute btn-map-tr btn">dedede</button>
+            <button id="btn-map-zr" class="position-absolute btn-map-zr btn">dedede</button>
+            <button id="btn-map-vc" class="position-absolute btn-map-vc btn">dedede</button>
+            <button id="btn-map-mr" class="position-absolute btn-map-mr btn">dedede</button>
+            <button id="btn-map-cos" class="position-absolute btn-map-cos btn">dedede</button>`,
       background: `rgba(32, 168, 222, 0.0)`,
       width: "35em",
       showCloseButton: true,
       showConfirmButton: false,
+      
     });
+    
     var map = L.map("map", {
       crs: L.CRS.Simple,
       minZoom: -1.5,
     });
+      const botonTigreRetiro = document.getElementById("btn-map-tr");
 
+      botonTigreRetiro.onclick = () => {
+        Swal.fire({
+          html: `<div class="justify-content-center" id="">holissss</div>`,
+          background: `rgba(32, 168, 222, 0.0)`,
+          width: "35em",
+          showCloseButton: true,
+          showConfirmButton: false,
+        });}
     var myIcon = L.divIcon({
       className: "marker-container",
       html: '<div class="iconoalert"><img src="/images/cautionIz.png" class="marker-icon"></div>',
@@ -96,10 +112,10 @@ export function iniciarMapaMitre() {
     // ------------------------------------------- Sector ep capilla del señor victoria --------------------------------------------
 
     var car_cap_mark = L.marker([1040, 340], { icon: alertIz })
-      .addTo(map)
-      .bindPopup(
-        '<b class="sansserif d-flex justify-content-center">Los Cardales - Capilla del señor</b><br><b class="sansserif">Velocidad máxima: 30km/h.</br>Motivo: infraestructura sin renovar, pasos a nivel sin barrera y mal estado de puentes</b>'
-      );
+    .addTo(map)
+    .bindPopup(
+        '<b class="sansserif d-flex justify-content-center">Los Cardales - Capilla del señor</b><br><b class="sansserif">Velocidad máxima: 30km/h.</br>Motivo: infraestructura sin renovar, pasos a nivel sin barrera y mal estado de puentes</b>',
+    );
 
     var tal_car_mark = L.marker([900, 340], { icon: infoIz })
       .addTo(map)
@@ -311,6 +327,8 @@ export function iniciarMapaMitre() {
       .bindPopup(
         '<b class="sansserif d-flex justify-content-center">Tigre - San Fernando</b><br><b class="sansserif">Velocidad máxima: 60 km/h. Última renovación de vía 1985</b>'
       );
+
     // ------------------------------------------- AP - Retiro - Tigre --------------------------------------------
   };
+  
 }
