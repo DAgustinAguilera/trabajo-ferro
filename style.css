@@ -164,7 +164,11 @@ width: 80%;
     display: none;
 
 }
+.dropdown-menu{
+    font-size: 0.7rem;
+}
 .navbar{
+    font-size: 0.8rem;
     display: none;
     color: rgb(0, 0, 0);
     background-color: rgba(32, 168, 222);
