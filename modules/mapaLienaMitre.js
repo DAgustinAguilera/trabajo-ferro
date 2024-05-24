@@ -112,6 +112,24 @@ export function iniciarMapaMitre() {
     map.setMaxBounds(imageBounds);
 
     map.fitBounds(imageBounds);
+    // ------------------------------------------- Sector ep Mitre - Retiro --------------------------------------------
+
+
+    var ret_mit_mark = L.marker([380, 465], { icon: myIcon2 })
+      .addTo(map)
+      .bindPopup(
+        '<b class="sansserif d-flex justify-content-center">Coghlan - Bmé Mitre</b><br><b class="sansserif">Velocidad máxima: 40km/h.</br>Motivo: por desgaste de su infraestructura de vía debido a la falta de mantenimiento y renovación integral de la misma.<br/>Precauciones: entre 5 y 12km/h en algunos sectores por ingreso a terminal y cambios en mal estado.</b>'
+      );
+
+
+      var delta_mark = L.marker([880, 820], { icon: myIcon2 })
+      .addTo(map)
+      .bindPopup(
+        '<b class="sansserif d-flex justify-content-center">Maipú - Delta</b><br><b class="sansserif">Velocidad máxima: 70km/h.<br/>Precauciones: entre 8 y 40km/h en algunos sectores debido a los ingresos a terminal, radios de curva y falta de mantenimiento de vía.</b>'
+      );
+    
+    // ------------------------------------------- Sector ep Mitre - Retiro --------------------------------------------
+
 
     // ------------------------------------------- Sector ep capilla del señor victoria --------------------------------------------
 
