@@ -127,7 +127,34 @@
     </div>
     <nav class="navbar fixed-top roboto-mono navbarcolor mw-100" id="navbar">
       <div class="container-fluid">
-        <a class="navbar-brand me-5" href="#">Herramientas</a>
+        <button
+        id="paso4"
+        class="navbar-toggler d-lg-none"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar"
+        aria-label="Toggle navigation"
+      >
+        <span id="iconotools" class="bi bi-gear-fill ms-3"></span>
+      </button>
+      <div class="btn-canvas d-flex justify-content-center animate__animated animate__pulse animate__infinite d-none  d-lg-flex">
+      <button         
+      id=""
+      class="navbar-toggler d-none d-lg-block d-xl-block"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasNavbar"
+      aria-controls="offcanvasNavbar"
+      aria-label="Toggle navigation" 
+      class=""
+      >
+        INFO, DATOS Y MÁS
+      </button>
+      </div>
+
+        <a class="navbar-brand me-5 d-lg-none" href="#">Herramientas</a>
+        <a class="navbar-brand me-5 d-none d-lg-block d-xl-block" href="#">Al Futuro se viaja EN TREN</a>
         <div class="d-flex justify-content-center">
           <i class="bi bi-brightness-high"></i>
           <div class="form-check form-switch">
@@ -136,19 +163,8 @@
           </div>
            <i class="bi bi-moon" ></i>
         </div>
-        <button
-          id="paso4"
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasNavbar"
-          aria-controls="offcanvasNavbar"
-          aria-label="Toggle navigation"
-        >
-          <span id="iconotools" class="bi bi-gear-fill ms-3"></span>
-        </button>
         <div
-          class="offcanvas offcanvas-end navbarcolor"
+          class="offcanvas offcanvas-start navbarcolor"
           tabindex="-1"
           id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel"
@@ -297,7 +313,7 @@
                 >
               </li>
               <li class="nav-item">
-                <a id="historia-boton"  class="nav-link active" aria-current="page"
+                <a href="#" id="historia-boton"  class="nav-link active" aria-current="page"
                   >Historia del Ferrocarril</a
                 >
               </li>

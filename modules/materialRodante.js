@@ -45,9 +45,9 @@ export function botonesMaterialRodante() {
                     <div class="text-start">
                       <div class="collapse m-3" id="collapseExample22">
                         <a>
-                          Flota: 30 formaciones de 6 coches cada una para los 3
-                          ramales de la Línea Mitre. <br /><br />En servicio: 22
-                          formaciones <br />Fuera de servicio: 8 formaciones
+                          • <b>Flota:</b> 30 formaciones de 6 coches cada una para los 3
+                          ramales de la Línea Mitre. <br /><br /><b>• En servicio:</b> 22
+                          formaciones <br /><b>• Fuera de servicio:</b> 8 formaciones
                           <br /><br />Motivos: mantenimiento programado, falta de
                           repuestos y desgaste excesivo de llantas.<br />
                           Con los repuestos adecuados, se podrían incorporar al
@@ -90,9 +90,9 @@ export function botonesMaterialRodante() {
                     <div class="text-start">
                       <div class="collapse m-3" id="collapseExample11">
                         <a>
-                            Flota: 9 dulpas de 2 coches cada una, para el Tren de la
+                            <b>• Flota:</b> 9 dulpas de 2 coches cada una, para el Tren de la
                             Costa.
-                            <br /><br/>En servicio: 4 formaciones. <br />Fuera de servicio: 5
+                            <br /><br/><b>• En servicio:</b> 4 formaciones. <br /><b>• Fuera de servicio:</b> 5
                             formaciones. <br /><br/>Motivos: falta de repuestos para su
                             mantenimiento y puesta en valor.<br />Hay unidades
                             desmanteladas por robos en la zona del taller.
@@ -170,11 +170,11 @@ export function botonesMaterialRodante() {
                     <div class="text-start">
                       <div class="collapse m-3" id="collapseExample33">
                         <a class="informacionmaterial">
-                          Flota para servicio Regional de Salta: 7 duplas en total.<br/><br/>En servicio: 4 formaciones .
-                            <br/>Fuera de servicio: 3 formaciones.<br/><br/> Motivos: falta de repuestos para su mantenimiento
+                          Flota para servicio Regional de Salta: 7 duplas en total.<br/><br/><b>• En servicio:</b> 4 formaciones .
+                            <br/><b>• Fuera de servicio:</b> 3 formaciones.<br/><br/> Motivos: falta de repuestos para su mantenimiento
                              y puesta en funcionamiento, mejorando la oferta de servicios.<br/><br/><br/>
-                             Flota para los servicios Metropolitanos y Regionales de Córdoba: 10 duplas en total<br/><br/>En servicio: 7 formaciones.
-                            <br/>Fuera de servicio: 3 formaciones.<br/><br/>Motivos: falta de repuestos para su mantenimiento
+                             Flota para los servicios Metropolitanos y Regionales de Córdoba: 10 duplas en total<br/><br/><b>• En servicio:</b> 7 formaciones.
+                            <br/><b>• Fuera de servicio:</b> 3 formaciones.<br/><br/>Motivos: falta de repuestos para su mantenimiento
                              y puesta en funcionamiento, mejorando la oferta de servicios.
                           </a>
                       </div>
@@ -217,8 +217,8 @@ export function botonesMaterialRodante() {
                           Flota para los servicios regionales de Chaco: 8 formaciones en total.
                           <br /><br/>
                           Flota para el servicio Saenz Peña-Chorotis: 3 formaciones.
-                              <br /><br/>En servicio: 1 formación. <br />Fuera de servicio: 2
-                              formaciones.<br /><br/>Motivo: falta de repuestos para su mantenimiento y puesta en funcionamiento, mejorando la oferta de servicio. <br /><br/>Flota para el servicio Cacuí-Los Amores: 5 formaciones.<br /><br/>En servicio: 2 formaciones.<br />Fuera de servicio: 3 formaciones.<br /><br/>Motivos:  falta de repuestos para su mantenimiento
+                              <br /><br/><b>• En servicio:</b> 1 formación. <br /><b>• Fuera de servicio:</b> 2
+                              formaciones.<br /><br/>Motivo: falta de repuestos para su mantenimiento y puesta en funcionamiento, mejorando la oferta de servicio. <br /><br/>Flota para el servicio Cacuí-Los Amores: 5 formaciones.<br /><br/><b>• En servicio:</b> 2 formaciones.<br /><b>• Fuera de servicio:</b> 3 formaciones.<br /><br/>Motivos:  falta de repuestos para su mantenimiento
                                y puesta en funcionamiento, mejorando la oferta de servicio.<br />
                             </a>
                       </div>
@@ -294,8 +294,8 @@ export function botonesMaterialRodante() {
                       <div class="collapse m-3" id="collapseExample55">
                         <a>
                         Flota para los 2 ramales diésel de la Línea Mitre: 7 locomotoras.
-                          <br /><br/>En servicio: 5 unidades.<br />Fuera de servicio: 2 unidades.<br /><br/>
-                           Motivos: falta de presupuesto para su reparación general en talleres externos.
+                          <br /><br/><b>• En servicio:</b> 5 unidades.<br /><b>• Fuera de servicio:</b> 2 unidades.<br /><br/>
+                           Motivos: falta de presupuesto para su reparación general en talleres externos.<br/>
                             Las dos locomotoras que están fuera de servicio se encuentran en Materfer, planta ubicada en la provincia de Córdoba.
                          </a>
                       </div>
@@ -335,8 +335,8 @@ export function botonesMaterialRodante() {
                     <div class="text-start">
                       <div class="collapse m-3" id="collapseExample66">
                         <a>
-                        Flota para los 2 ramales diésel de la Línea Mitre: 5 locomotoras.<br/><br/>En servicio: 2 unidades.<br/><br/>Fuera de servicio: 1 unidad.<br/><br/>
-                          Motivos: falta de presupuesto para su reparación general en talleres externos. La locomotora que se haya fuera de servicio está en Materfer, provincia de Córdoba.<br/><br/>
+                        Flota para los 2 ramales diésel de la Línea Mitre: 5 locomotoras.<br/><br/><b>• En servicio:</b> 2 unidades.<br/><br/><b>• Fuera de servicio:</b> 1 unidad.<br/><br/>
+                          Motivos: falta de presupuesto para su reparación general en talleres externos.<br/> La locomotora que se haya fuera de servicio está en Materfer, provincia de Córdoba.<br/><br/>
                           Transferencia: 2 unidades en servicio en la Línea Sarmiento.
                           </a>
                       </div>
@@ -375,7 +375,7 @@ export function botonesMaterialRodante() {
                     <div>
                       <div class="text-start">
                         <div class="collapse m-3" id="collapseExample77">
-                          <a>Flota total: 4 locomotoras.<br /><br/>En servicio: 2 unidades, solo para uso interno. <br />Fuera de servicio: 2
+                          <a>Flota total: 4 locomotoras.<br /><br/><b>• En servicio:</b> 2 unidades, solo para uso interno. <br /><b>• Fuera de servicio:</b> 2
                             unidades.<br /><br/Motivos: una se encuentra en reparación en Taller Liniers por fallas luego de una reparación general en Materfer.
                             <br/>La otra está en el Taller de Benito Roggio aguardando se finalicen las tareas de reparación.
                           </a>
@@ -416,7 +416,7 @@ export function botonesMaterialRodante() {
                         <div class="text-start">
                           <div class="collapse m-3" id="collapseExample88">
                             <a>
-                            Flota total: 1 locomotora<br /><br/>En servicio: 0 unidades.<br />Fuera de servicio: 1 unidad.
+                            Flota total: 1 locomotora<br /><br/><b>• En servicio:</b> 0 unidades.<br /><b>• Fuera de servicio:</b> 1 unidad.
                               <br /><br/>Motivo: falta de repuestos para su mantenimiento programado.
                                 </a>
                           </div>
@@ -492,7 +492,7 @@ export function botonesMaterialRodante() {
                       <div class="collapse m-3" id="collapseExample99">
                         <a>
                         Flota para los 2 ramales diésel de la Línea Mitre: 29 coches.<br /><br />
-                        En servicio: 10 unidades.<br />Fuera de servicio: 8 unidades.<br />En mantenimiento: 4 unidades.<br/>A reparar: 7 unidades<br /><br />
+                        <b>• En servicio:</b> 10 unidades.<br /><b>• Fuera de servicio:</b> 8 unidades.<br /><b>• En mantenimiento:</b> 4 unidades.<br/><b>• A reparar:</b> 7 unidades<br /><br />
                            Motivos: falta de repuestos, materiales con fallas estructurales y
                             otras por mantenimiento para su puesta en servicio. Con más coches, se puede mejorar notoriamente la oferta de servicios diésel en la Línea Mitre.
                          </a>

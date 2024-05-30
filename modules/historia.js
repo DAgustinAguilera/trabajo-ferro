@@ -50,7 +50,7 @@ export function botonhistoria() {
           </div>
     </div>`,
         background: `rgba(32, 168, 222, 0.0)`,
-        width: "35rem",
+        width: "100%",
         showCloseButton: true,
         showConfirmButton: false,
       });

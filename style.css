@@ -12,7 +12,7 @@
     --primary-color: rgba(31, 31, 31, 0.9);
     --secondary-color: rgba(48, 48, 48, 0.945);
     --resalt-color: rgba(18, 56, 75, 0.945);
-    --font-size-base: 16px;
+    --font-size-base: 2rem;
     --font-colof-primary: rgb(227, 227, 227);
     --font-colof-secondary: rgb(9, 9, 9);
     --padding-base: 10px;
@@ -130,6 +130,9 @@ body, html {
 background-color: #092d0000;
 width: 80%;
 }
+.icono:hover{
+    scale: 1.1;
+}
 .btn-map-tr{
     z-index: 60000;
     bottom: 4%;
@@ -165,10 +168,10 @@ width: 80%;
 
 }
 .dropdown-menu{
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 }
 .navbar{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     display: none;
     color: rgb(0, 0, 0);
     background-color: rgba(32, 168, 222);
@@ -378,7 +381,6 @@ width: 80%;
     height: 3rem;
     width: 12rem;
     border-style: none;
-
     border-radius: 5px;
     border-color: var(--resalt-color);
     font-family: "Squada One", sans-serif;
@@ -388,6 +390,21 @@ width: 80%;
     font-size: large;
     
 }
+.btn-canvas *{
+    background-color: var(--resalt-color);
+    height: 3rem;
+    width: 15rem;
+    border-style: none;
+    border-radius: 5px;
+    border-color: var(--resalt-color);
+    font-family: "Squada One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--font-colof-primary) !important;
+    box-shadow: 5px 2px 18px -4px rgba(0,0,0,0.68);
+
+}
+
 .btn-firma1:active{
     background-color: var(--resalt-color);
     border-radius: 5px;
@@ -605,7 +622,7 @@ div:where(.swal2-container) div:where(.swal2-popup) {
     font-weight: 400;
     font-style: normal;
     max-width: 100% !important;
-    background-color: var(--primary-color) !important;
+    /* background-color: var(--primary-color) !important; */
 }
 div:where(.swal2-container) .swal2-html-container {
     margin: 0 !important;

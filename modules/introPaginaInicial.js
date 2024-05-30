@@ -15,25 +15,25 @@ intro.setOptions({
       { 
         title: 'Bienvenido!',
         element: '#paso1',
-        intro: 'Te voy a enseñar a usar nuestra pagina',
+        intro: 'Te voy a enseñar a usar nuestra página',
         tooltipClass: 'customTooltip',
       },
       { 
-        title: 'Informmacion importante!',
+        title: 'Informmación importante!',
         element: '#boton_alert',
-        intro: 'Tocando este boton vas a poder ver informacion importante sobre el tema mencionado en el titulo',
+        intro: 'Tocando este botón vas a poder ver información importante sobre el tema mencionado en el título',
         tooltipClass: 'customTooltip',
       },
       { 
-        title: 'Peticion!',
+        title: '!Petición!',
         element: '#paso3',
-        intro: 'Este boton te guia hacia la firma de nuestra peticion!',
+        intro: 'Este botón te guía hacia la firma de nuestra petición!',
         tooltipClass: 'customTooltip',
       },
       { 
-        title: 'Herramientas utiles!',
+        title: 'Herramientas útiles!',
         element: '#paso4',
-        intro: 'En esta seccion vas a encontrar herramientas que te pueden ser de utilidad como el estado del servicio',
+        intro: 'En esta sección vas a encontrar herramientas que te pueden ser de utilidad como el estado del servicio',
         tooltipClass: 'customTooltip',
       },
       
