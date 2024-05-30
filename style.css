@@ -10,8 +10,8 @@
 
 .modo-alternativo{
     --primary-color: rgba(31, 31, 31, 0.9);
-    --secondary-color: rgba(48, 48, 48, 0.945);
-    --resalt-color: rgba(18, 56, 75, 0.945);
+    --secondary-color: rgba(10, 79, 113, 0.945);
+    --resalt-color: rgba(34, 105, 141, 0.945);
     --font-size-base: 2rem;
     --font-colof-primary: rgb(227, 227, 227);
     --font-colof-secondary: rgb(9, 9, 9);
@@ -324,9 +324,15 @@ width: 80%;
     width: 45px;
 }
 
-.navbar-nav .nav-link.active, .navbar-nav .nav-link.show, .navbar-brand,.navbar-toggler-icon,.nav-link {
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show, .navbar-brand,.navbar-toggler-icon,.nav-link{
     color: var(--font-colof-primary);
     font-size: 3.5ch;
+
+}
+.navbar-brands{
+    margin-right: 9rem !important;
+    font-size: 2rem;
+
 }
 .nav-link:visited,.navbar-brand:visited{
     color: var(--font-colof-primary);
@@ -351,7 +357,7 @@ width: 80%;
 .bg-ferro-mobile{
     background-color: var(--secondary-color);
     box-shadow: 11px 11px 29px -11px rgba(0,0,0,0.75);
-    border-radius: 3%;
+    border-radius: 11px;
 }
 .btn-semaforo{
     background-color: rgba(25, 25, 25, 0.91);
@@ -428,7 +434,7 @@ width: 80%;
     
 }
 .btn-primary{
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     border-color: var(--secondary-color);
     box-shadow: 4px 10px 18px 6px rgba(0,0,0,0.77);
     font-family: "Squada One", sans-serif;
@@ -437,6 +443,10 @@ width: 80%;
 }
 .informacionmaterial{
     text-align: justify;
+}
+.imagen-nav{
+    position: absolute;
+    width: 10%;
 }
 .btn-primaryanimacion{
     color: var(--font-colof-primary);
@@ -563,13 +573,49 @@ height: 5rem;
 }
 .contenedor-firma{
     left: 50%;
-    bottom: 10%;
+    bottom: -5%;
     width: 90%;
+    background-color: var(--primary-color);
+    opacity: 0.9;
+    font-size: 0.8rem;
+    padding-bottom: 1rem;
+}
+.logo-firma{
+    bottom: 86%;
+    width: 17%;
+    position: absolute;
+    left: 42%;
 }
 .contenedor-firma-web{
     left: 50%;
-    bottom: 0%;
+    bottom: -8%;
     width: 90%;
+    background-color: var(--primary-color);
+    opacity: 0.9;
+    height: 10rem;
+    color: var(--font-colof-primary);
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+}
+.fuente-defecto{
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: var(--font-colof-primary);
+}
+.fuente-defecto-mobile{
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.0rem;
+    color: var(--font-colof-primary);
+    margin: 1rem 0 1rem  0 ;
+
 }
 .contenedor-titulo-web{
     left: 50%;
